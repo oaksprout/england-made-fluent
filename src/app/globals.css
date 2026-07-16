@@ -1,0 +1,123 @@
+@import "tailwindcss";
+
+/*
+ * Design tokens — England, Made Fluent.
+ * Editorial policy-paper restraint + football-tactical visual language.
+ * Palette: warm off-white ground, England red accent, deep navy authority,
+ * muted grass green (tactical diagrams only), ink/grey editorial text.
+ */
+@theme {
+  --color-chalk: #faf6ef; /* warm off-white background */
+  --color-chalk-deep: #f1ebdf; /* slightly deeper panel tone */
+  --color-red: #c8102e; /* England red — primary accent */
+  --color-red-deep: #a00d25;
+  --color-navy: #0c1f3d; /* deep navy — authority & contrast */
+  --color-navy-soft: #1b3358;
+  --color-grass: #3e7a4f; /* muted green — tactical diagrams only */
+  --color-grass-deep: #2e5c3b;
+  --color-ink: #191a1c; /* editorial black */
+  --color-ink-soft: #43464b; /* body grey */
+  --color-ink-faint: #71757c; /* captions, metadata */
+  --color-line: #ddd5c6; /* hairline rules on chalk */
+
+  --font-display: var(--font-archivo), "Archivo", system-ui, sans-serif;
+  --font-serif: var(--font-source-serif), "Source Serif 4", Georgia, serif;
+
+  --animate-fade-up: fade-up 0.6s ease-out both;
+
+  @keyframes fade-up {
+    from {
+      opacity: 0;
+      transform: translateY(12px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}
+
+:root {
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+body {
+  @apply bg-chalk text-ink;
+  font-family: var(--font-serif);
+  text-rendering: optimizeLegibility;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-display);
+  letter-spacing: -0.01em;
+}
+
+/* Visible focus for keyboard users; never remove, only style. */
+:focus-visible {
+  outline: 3px solid var(--color-red);
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+::selection {
+  background: var(--color-navy);
+  color: var(--color-chalk);
+}
+
+/* Anchor targets clear the sticky header. */
+[id] {
+  scroll-margin-top: 5.5rem;
+}
+
+/* ------------------------------------------------------------------ */
+/* Print styles — used by the open letter and long-form pages.          */
+/* ------------------------------------------------------------------ */
+@media print {
+  body {
+    background: #fff;
+    color: #000;
+    font-size: 11.5pt;
+  }
+  header,
+  footer,
+  nav,
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  main {
+    max-width: none;
+  }
+  a {
+    color: #000;
+    text-decoration: none;
+  }
+}
+
+.print-only {
+  display: none;
+}
