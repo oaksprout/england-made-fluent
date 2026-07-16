@@ -12,7 +12,7 @@ and deploys on every push to `main` (and can be run manually via
 `workflow_dispatch`):
 
 1. Checks out the repo, sets up pnpm and Node 22 (with pnpm's dependency
-   cache), and enables GitHub Pages via `actions/configure-pages@v5`.
+   cache).
 2. Runs `pnpm install --frozen-lockfile`.
 3. Builds with two environment variables set specifically for GitHub Pages
    project hosting:
@@ -25,20 +25,29 @@ and deploys on every push to `main` (and can be run manually via
    - `NEXT_PUBLIC_SITE_URL=https://oaksprout.github.io/england-made-fluent`
      — the canonical absolute URL used in metadata, the sitemap, and social
      card copy.
-4. Uploads `out/` as a Pages artifact (`actions/upload-pages-artifact@v3`).
-5. A second job deploys that artifact with `actions/deploy-pages@v4`.
+4. Adds `out/.nojekyll` (the export contains `_next/`, which Jekyll would
+   otherwise ignore) and publishes `out/` to the `gh-pages` branch with
+   `peaceiris/actions-gh-pages@v4`.
+
+The branch-based flow is used deliberately: enabling Pages through
+`actions/configure-pages` requires Pages-admin API access that the default
+workflow token does not have in every environment, whereas publishing a
+`gh-pages` branch works with plain `contents: write`.
 
 ### Enabling GitHub Pages for a new fork/repo
 
-1. In the repository's Settings → Pages, set **Source** to "GitHub
-   Actions" (the `configure-pages` step in the workflow also does this
-   automatically on first run, given the `pages: write` permission it
-   requests).
-2. If the repository name differs from `england-made-fluent`, update
+1. Push to `main` — the workflow publishes the `gh-pages` branch.
+2. GitHub normally enables branch-based Pages automatically when a
+   `gh-pages` branch appears. Caveat: a branch created by the workflow's
+   own `GITHUB_TOKEN` may not trigger the first Pages build; if
+   `https://<user>.github.io/<repo>/` is not live after the first deploy,
+   either make any commit to `gh-pages` yourself or set Settings → Pages →
+   Source to "Deploy from a branch" / `gh-pages` once. Subsequent deploys
+   build automatically.
+3. If the repository name differs from `england-made-fluent`, update
    `BASE_PATH` and `NEXT_PUBLIC_SITE_URL` in `deploy.yml` to match, and
    update `site.url`'s fallback in `src/config/site.ts` for local
    consistency.
-3. Push to `main` — the workflow runs automatically.
 
 ## Vercel
 
