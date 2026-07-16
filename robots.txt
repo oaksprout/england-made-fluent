@@ -1,0 +1,4 @@
+User-Agent: *
+Allow: /
+
+Sitemap: https://oaksprout.github.io/england-made-fluent/sitemap.xml
