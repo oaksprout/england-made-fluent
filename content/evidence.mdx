@@ -1,0 +1,130 @@
+export const meta = {
+  title: "Evidence",
+  description:
+    "How this site handles evidence: the source model, placeholder discipline, the separation of fact from interpretation, and why tactical causation in football resists easy proof.",
+};
+
+## Why credibility is the whole point
+
+A campaign site making a structural argument about English football has
+exactly one asset that matters more than the argument itself: whether
+readers can trust how it handles evidence. It would be easy to write a
+persuasive case for structured adaptability using confident-sounding
+statistics, invented study findings, or a quotation attributed to an FA
+document nobody checked. It would also be dishonest, and it would undermine
+the argument the moment a single reader checked a source and found it did
+not say what we claimed.
+
+So this site works the other way round. Every factual claim on it is either
+backed by a labelled source, or framed explicitly as an analytical reading
+rather than a fact. That discipline is more important to us than any
+individual claim landing well.
+
+## The source model
+
+Every citation on this site resolves to an entry in a structured
+bibliography. Each entry records what kind of source it is — official
+federation material, peer-reviewed academic research, data journalism,
+credible sports journalism, a book, an interview, or a historical account —
+along with its publication date, the date we accessed it, which countries
+and eras it relates to, and exactly what claim it is being used to support.
+
+<DepthLayers>
+  <DepthBrief>
+    Every source in our bibliography is currently a placeholder: we have
+    identified what needs to exist and where to look for it, but a human
+    researcher has not yet located and verified the underlying material
+    against the claim it supports. Treat every citation on this site as "here
+    is what we would need to check," not "this has been checked."
+  </DepthBrief>
+  <DepthDetailed>
+    We built this site's argument first and its bibliography second, and we
+    are saying so plainly rather than disguising the order. For each source,
+    we have written a specific note describing exactly what a researcher
+    needs to find, verify or cross-check before the claim attached to it can
+    be treated as confirmed — an exact date, a specific figure, the actual
+    wording of an official document, or the existence of a genuine scholarly
+    consensus rather than a plausible-sounding assumption. Until that
+    verification work is done, every source carries a visible "placeholder"
+    status, shown wherever it is cited.
+
+    This is not a temporary embarrassment we are hoping nobody notices. It is
+    a structural decision: we would rather publish an argument with honestly
+    labelled unverified sources than publish one with confidently unlabelled
+    invented ones. Readers, including anyone at the FA, should treat every
+    number, date and quotation-adjacent claim on this site as provisional
+    until the bibliography says otherwise.
+
+  </DepthDetailed>
+  <DepthEvidence>
+    The verification status field exists in the underlying data model
+    specifically so this distinction cannot be silently dropped as the site
+    grows: every source is typed as either `verified` or `placeholder`, and
+    the placeholder state is the default we started from, not an edge case.
+    See `docs/sources-methodology` for how a source moves from placeholder to
+    verified, and `docs/RESEARCH_STANDARDS.md` for the rules governing the
+    comparative national case studies specifically.
+  </DepthEvidence>
+</DepthLayers>
+
+## Separating evidence from interpretation
+
+Two different kinds of statement appear throughout this site, and we try
+never to let them blur together. The first kind is a **factual claim**:
+something that happened, something an official body published, something a
+dataset recorded. The second is an **interpretation**: our reading of what
+a pattern of facts might mean, offered because we think it is a reasonable
+account, not because it has been proven.
+
+Interpretations are visually marked wherever they appear, using
+`<Callout tone="interpretation">`, and genuinely disputed readings are marked
+`tone="contested"` instead. If a sentence on this site makes an analytical
+claim without either a citation or an interpretation label, that is an
+error in our own discipline — and we mean it when we invite readers to tell
+us where we have missed one.
+
+## Why tactical causation resists proof
+
+Nobody can run a controlled experiment on international football. There is
+no version of Euro 2024 where England fields an identical squad under a
+different national coaching framework so the two outcomes can be compared.
+Every claim this site makes about what causes collective tactical fluency —
+including its central argument — rests on inference from imperfect evidence:
+team-cognition and coordination research conducted mostly outside elite
+senior football <Cite id="shared-mental-models-research" />
+<Cite id="team-coordination-research" />, observation of match patterns, and
+comparison across national systems that differ in dozens of ways at once. We
+try to be explicit about that limit rather than borrow the authority of
+"evidence" for claims that are really structural reasoning.
+
+<Callout tone="note" title="Tournament wins are not proof of a system">
+  A team can win a major tournament playing a flawed system, and lose one
+  playing an excellent system, because a single-elimination competition is a
+  small, high-variance sample: a handful of matches, refereeing decisions,
+  injuries and moments of individual brilliance that could easily have gone the
+  other way. Post-tournament technical reports document what happened on the
+  pitch in useful detail <Cite id="tournament-possession-data" />, but what
+  happened is not the same as proof that it was the correct approach. We try
+  never to argue "team X won, therefore approach X was validated," and we ask
+  readers to be suspicious of anyone who does.
+</Callout>
+
+## How to treat our claims
+
+Read this site the way we would want any serious source read: check the
+citation, note whether it is marked verified or placeholder, and treat
+anything inside an interpretation callout as an argument to weigh rather
+than a fact to accept. Where we discuss preparation-time constraints on
+international coaching <Cite id="international-preparation-time" />, treat
+the underlying figures as needing confirmation until the source entry says
+otherwise. Where we lean on research from outside football — team cognition,
+skill transfer, organisational design — treat it explicitly as analogy,
+because that is what it is.
+
+## An open invitation
+
+If you find a citation that does not support the claim attached to it, a
+placeholder source that has since been verified elsewhere, or an
+interpretation we have presented without the label it needs, tell us. The
+contact details are on the `/about/` page. A site built on evidentiary
+discipline should welcome correction more than it welcomes agreement.

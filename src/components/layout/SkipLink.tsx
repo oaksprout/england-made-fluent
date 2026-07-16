@@ -1,3 +1,4 @@
+/** Visually hidden link that becomes visible on focus, jumping keyboard users past the header to #main-content. */
 export function SkipLink() {
   return (
     <a

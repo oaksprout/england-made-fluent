@@ -1,0 +1,80 @@
+export const meta = {
+  title: "Sources & methodology",
+  description:
+    "How the bibliography behind England, Made Fluent is built: source types, verification status, placeholder discipline, prioritisation and the correction policy.",
+};
+
+## What a source entry contains
+
+Every entry in the bibliography records the same fields: a title, the
+organisation or author responsible for it, a publication date where known, a
+URL, the date we accessed it, a source type, the countries and eras it
+relates to, the specific claims it is being used to support, notes on what
+still needs verifying, and a verification status. That last field is the
+one that matters most.
+
+## Source types
+
+Sources are classified as **official** (federation, league or governing-body
+material), **academic** (peer-reviewed or scholarly literature), **data**
+(structured statistical datasets or technical reports), **journalism**,
+**book**, **interview**, or **historical** (accounts of events predating
+routinely archived digital sourcing). The type is shown alongside every
+citation so readers can judge how much weight a given claim should carry —
+official federation material and peer-reviewed research are not the same
+kind of evidence as a single piece of journalism, even when both are
+accurately cited.
+
+## Publication date versus accessed date
+
+Where a source has a clear original publication date, we record it
+separately from the date we accessed the material. This matters for
+anything time-sensitive: a Premier League academy statistic, a federation
+policy document, or a data point that could have been superseded since. The
+accessed date tells a reader how current our reference point was, even when
+the underlying publication date is older or unclear.
+
+## Verification status, and what "placeholder" actually means
+
+Every source carries a status of either `verified` or `placeholder`. As of
+this site's initial publication, every source in the bibliography is a
+placeholder: we have identified the organisation or literature that should
+hold the relevant material and written a specific note describing what a
+human researcher needs to locate and check, but nobody has yet done that
+verification work against the exact claim the source is attached to.
+
+A placeholder status is not a minor caveat. It means: do not treat any date,
+figure, or characterisation of a source's contents on this site as confirmed
+until the entry has been updated to `verified`. The `<Cite>` marker used
+throughout the site visibly flags placeholder sources wherever they appear,
+rather than hiding the distinction in fine print.
+
+## How sources are prioritised
+
+When verifying or extending the bibliography, priority runs from official
+federation and governing-body material (FA, UEFA, FIFA, RFEF, DFB, FFF, FIGC,
+KNVB, CBF, AFA, HNS, Premier League), to peer-reviewed academic research, to
+credible sports historians and analysts, to reputable data journalism and
+statistical services. General-interest journalism and secondary
+summarisation are used sparingly and flagged as such, never as a substitute
+for a primary source that is realistically obtainable.
+
+## Contested interpretations
+
+Some readings of football history and tactics are genuinely disputed among
+serious analysts and historians — for example, how much credit a specific
+academy or reform programme deserves for a subsequent tournament result.
+Where that is the case, the relevant `<Callout>` is marked
+`tone="contested"` rather than `tone="interpretation"`, signalling that
+credible people disagree, not just that this is our own reading of settled
+facts.
+
+## Correction policy
+
+If a source's verification status is wrong, if a citation does not actually
+support the claim it is attached to, or if you have located material that
+should update a placeholder entry, please contact
+
+<a href={`mailto:${"info@gtawyb.com"}`}>info@gtawyb.com</a> with the source ID,
+the page it appears on, and what you believe should change. Corrections will be
+reflected in the bibliography directly rather than argued away.
