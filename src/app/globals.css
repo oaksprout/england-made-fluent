@@ -17,7 +17,7 @@
   --color-grass-deep: #2e5c3b;
   --color-ink: #191a1c; /* editorial black */
   --color-ink-soft: #43464b; /* body grey */
-  --color-ink-faint: #71757c; /* captions, metadata */
+  --color-ink-faint: #63676e; /* captions, metadata — ≥4.5:1 on chalk and chalk-deep */
   --color-line: #ddd5c6; /* hairline rules on chalk */
 
   --font-display: var(--font-archivo), "Archivo", system-ui, sans-serif;

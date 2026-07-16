@@ -41,15 +41,15 @@ letter page), `/privacy/` (only linked when analytics enabled).
 
 ## File ownership
 
-| Area | Owner | Paths |
-| --- | --- | --- |
-| Foundation (do not edit) | lead | root configs, `src/lib/types.ts`, `src/lib/utils.ts`, `src/config/site.ts`, `src/app/globals.css`, `src/app/layout.tsx`, `scripts/generate-og.mjs` |
-| Data layer | Agent A | `src/data/*.ts` |
-| Layout/UI/citation components | Agent B | `src/components/layout/*`, `src/components/ui/*`, `src/components/citations/*` |
-| Tactical & interactive components | Agent C | `src/components/tactical/*`, `src/components/nations/*`, `src/components/timeline/*` |
-| Long-form MDX + docs prose | Agent E | `content/*.mdx`, `docs/RESEARCH_STANDARDS.md`, `docs/CONTENT_EDITING.md` |
-| Pages, homepage, SEO wiring | Agent D | `src/app/**/page.tsx`, `src/app/sitemap.ts`, `src/app/robots.ts`, `src/app/not-found.tsx`, `src/components/home/*`, `mdx-components.tsx`, structured data |
-| Tests, CI, docs | Agent F | `tests/**`, `.github/workflows/*`, `README.md`, remaining `docs/*.md` |
+| Area                              | Owner   | Paths                                                                                                                                                     |
+| --------------------------------- | ------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Foundation (do not edit)          | lead    | root configs, `src/lib/types.ts`, `src/lib/utils.ts`, `src/config/site.ts`, `src/app/globals.css`, `src/app/layout.tsx`, `scripts/generate-og.mjs`        |
+| Data layer                        | Agent A | `src/data/*.ts`                                                                                                                                           |
+| Layout/UI/citation components     | Agent B | `src/components/layout/*`, `src/components/ui/*`, `src/components/citations/*`                                                                            |
+| Tactical & interactive components | Agent C | `src/components/tactical/*`, `src/components/nations/*`, `src/components/timeline/*`                                                                      |
+| Long-form MDX + docs prose        | Agent E | `content/*.mdx`, `docs/RESEARCH_STANDARDS.md`, `docs/CONTENT_EDITING.md`                                                                                  |
+| Pages, homepage, SEO wiring       | Agent D | `src/app/**/page.tsx`, `src/app/sitemap.ts`, `src/app/robots.ts`, `src/app/not-found.tsx`, `src/components/home/*`, `mdx-components.tsx`, structured data |
+| Tests, CI, docs                   | Agent F | `tests/**`, `.github/workflows/*`, `README.md`, remaining `docs/*.md`                                                                                     |
 
 ## Data layer (Agent A) — exact exports from `src/data/`
 
@@ -194,12 +194,15 @@ Rules:
   <DepthLayers>
     <DepthBrief>short version…</DepthBrief>
     <DepthDetailed>full version…</DepthDetailed>
-    <DepthEvidence>sources & caveats… <Cite id="fa-england-dna-launch" /></DepthEvidence>
+    <DepthEvidence>
+      sources & caveats… <Cite id="fa-england-dna-launch" />
+    </DepthEvidence>
   </DepthLayers>
   ```
 
   (Agent B: also export `DepthBrief`, `DepthDetailed`, `DepthEvidence` as
   simple slot wrappers, and make `DepthLayers` accept them as children.)
+
 - Also available: `<Callout tone="interpretation">`, `<Expandable summary="…">`.
 - Cite source IDs must exist in `src/data/sources.ts` (Agent A publishes the
   ID list below).
@@ -230,8 +233,8 @@ Rules:
   `hero`, `argument-60-seconds`, `structural-advantage`, `no-single-model`,
   `comparative-timeline` (teaser linking to /history/), `false-choice`,
   `proposed-identity`, `interoperability`, `game-states` (3 featured modules
-  + link), `england-dna` (teaser), `proposals` (condensed + link),
-  `objections` (condensed), `open-letter` (teaser + actions), `closing`.
+  - link), `england-dna` (teaser), `proposals` (condensed + link),
+    `objections` (condensed), `open-letter` (teaser + actions), `closing`.
 - Homepage h1 = `site.thesis.headline`.
 - JSON-LD: `Organization` on layout-level + `Article` on long-form pages.
 - `/open-letter/`: clean print-formatted page; actions = copy, print

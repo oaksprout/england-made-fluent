@@ -46,7 +46,6 @@ export function Cite({ id, children }: CiteProps) {
 
   useEffect(() => {
     if (!source && process.env.NODE_ENV !== "production") {
-       
       console.warn(`Cite: unknown source id "${id}"`);
     }
   }, [source, id]);
@@ -102,7 +101,11 @@ export function Cite({ id, children }: CiteProps) {
           if (!wrapperRef.current?.contains(event.relatedTarget as Node))
             setOpen(false);
         }}
-        onClick={() => setOpen((value) => !value)}
+        // Always open on click rather than toggle: a real mouse click is
+        // preceded by hover/focus which has already opened the popover, so a
+        // toggle would immediately close it. Escape, blur and outside-click
+        // are the close paths.
+        onClick={() => setOpen(true)}
       >
         <span aria-hidden="true">†</span>
         <span className="sr-only">Source: {source.title}</span>

@@ -86,11 +86,7 @@ export type Nation = {
 /* ------------------------------------------------------------------ */
 
 export type TimelineCategory =
-  | "institutional"
-  | "tactical"
-  | "development"
-  | "reform"
-  | "hybrid";
+  "institutional" | "tactical" | "development" | "reform" | "hybrid";
 
 export type TimelineEntry = {
   id: string;

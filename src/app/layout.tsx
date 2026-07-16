@@ -4,6 +4,8 @@ import { site } from "@/config/site";
 import { Header } from "@/components/layout/Header";
 import { Footer } from "@/components/layout/Footer";
 import { SkipLink } from "@/components/layout/SkipLink";
+import { ReadingProgress } from "@/components/layout/ReadingProgress";
+import { OrganizationJsonLd } from "@/components/home/OrganizationJsonLd";
 import "./globals.css";
 
 const archivo = Archivo({
@@ -53,15 +55,29 @@ export const metadata: Metadata = {
 export default function RootLayout({
   children,
 }: Readonly<{ children: React.ReactNode }>) {
+  const { enabled, plausibleDomain } = site.analytics;
+
   return (
-    <html lang="en-GB" className={`${archivo.variable} ${sourceSerif.variable}`}>
+    <html
+      lang="en-GB"
+      className={`${archivo.variable} ${sourceSerif.variable}`}
+    >
       <body className="flex min-h-screen flex-col antialiased">
+        <ReadingProgress />
+        <OrganizationJsonLd />
         <SkipLink />
         <Header />
         <main id="main-content" className="flex-1">
           {children}
         </main>
         <Footer />
+        {enabled && plausibleDomain ? (
+          <script
+            defer
+            data-domain={plausibleDomain}
+            src="https://plausible.io/js/script.js"
+          />
+        ) : null}
       </body>
     </html>
   );

@@ -1,8 +1,8 @@
 "use client";
 
 import {
-  Children,
-  isValidElement,
+  createContext,
+  useContext,
   useId,
   useRef,
   useState,
@@ -17,19 +17,48 @@ export type DepthSlotProps = {
   children: ReactNode;
 };
 
+/**
+ * Slot coordination happens through context rather than child-type matching:
+ * when the slot components arrive as children of DepthLayers from a server
+ * component (MDX content), their element `type` is a client-reference proxy,
+ * so `child.type === DepthBrief` fails across the RSC boundary. Each slot
+ * instead renders its own tabpanel and reads the active layer from context.
+ */
+const DepthLayersContext = createContext<{
+  active: DepthKey;
+  baseId: string;
+} | null>(null);
+
+function DepthSlot({ slot, children }: DepthSlotProps & { slot: DepthKey }) {
+  const ctx = useContext(DepthLayersContext);
+  // Rendered standalone (outside DepthLayers): show the content plainly.
+  if (!ctx) return <>{children}</>;
+  return (
+    <div
+      role="tabpanel"
+      id={`${ctx.baseId}-panel-${slot}`}
+      aria-labelledby={`${ctx.baseId}-tab-${slot}`}
+      hidden={ctx.active !== slot}
+      className="pt-5"
+    >
+      {children}
+    </div>
+  );
+}
+
 /** Slot wrapper identifying the "Brief" reading-depth layer. Used as a DepthLayers child (e.g. from MDX) or rendered standalone. */
 export function DepthBrief({ children }: DepthSlotProps) {
-  return <>{children}</>;
+  return <DepthSlot slot="brief">{children}</DepthSlot>;
 }
 
 /** Slot wrapper identifying the "Detailed" reading-depth layer. */
 export function DepthDetailed({ children }: DepthSlotProps) {
-  return <>{children}</>;
+  return <DepthSlot slot="detailed">{children}</DepthSlot>;
 }
 
 /** Slot wrapper identifying the "Evidence" reading-depth layer. */
 export function DepthEvidence({ children }: DepthSlotProps) {
-  return <>{children}</>;
+  return <DepthSlot slot="evidence">{children}</DepthSlot>;
 }
 
 export type DepthLayersProps = {
@@ -40,7 +69,8 @@ export type DepthLayersProps = {
   defaultLayer?: DepthKey;
   /**
    * MDX usage: pass <DepthBrief>/<DepthDetailed>/<DepthEvidence> children —
-   * they are matched by component identity regardless of order.
+   * each slot renders its own tabpanel and reads the active layer from
+   * context, so the pattern survives the RSC boundary.
    */
   children?: ReactNode;
 };
@@ -71,19 +101,11 @@ export function DepthLayers({
   });
   const baseId = useId();
 
-  const slots: Record<DepthKey, ReactNode> = {
+  const propSlots: Record<DepthKey, ReactNode> = {
     brief: brief ?? null,
     detailed: detailed ?? null,
     evidence: evidence ?? null,
   };
-
-  Children.forEach(children, (child) => {
-    if (!isValidElement(child)) return;
-    const props = child.props as DepthSlotProps;
-    if (child.type === DepthBrief) slots.brief = props.children;
-    else if (child.type === DepthDetailed) slots.detailed = props.children;
-    else if (child.type === DepthEvidence) slots.evidence = props.children;
-  });
 
   function focusTab(key: DepthKey) {
     setActive(key);
@@ -151,7 +173,7 @@ export function DepthLayers({
           );
         })}
       </div>
-      {TAB_ORDER.map(({ key }) => (
+      {TAB_ORDER.filter(({ key }) => propSlots[key] !== null).map(({ key }) => (
         <div
           key={key}
           role="tabpanel"
@@ -160,9 +182,14 @@ export function DepthLayers({
           hidden={active !== key}
           className="pt-5"
         >
-          {slots[key]}
+          {propSlots[key]}
         </div>
       ))}
+      {children !== undefined && children !== null ? (
+        <DepthLayersContext.Provider value={{ active, baseId }}>
+          {children}
+        </DepthLayersContext.Provider>
+      ) : null}
     </div>
   );
 }
