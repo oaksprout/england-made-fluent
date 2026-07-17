@@ -28,7 +28,11 @@ const SOURCE_TYPES: SourceType[] = [
   "interview",
   "historical",
 ];
-const VERIFICATION_STATUSES: VerificationStatus[] = ["verified", "placeholder"];
+const VERIFICATION_STATUSES: VerificationStatus[] = [
+  "verified",
+  "corroborated",
+  "placeholder",
+];
 
 const CONTENT_DIR = join(process.cwd(), "content");
 
@@ -116,9 +120,22 @@ describe("sources", () => {
     expect(new Set(ids).size).toBe(ids.length);
   });
 
-  it("seeds every source as an unverified placeholder", () => {
+  it("labels every source with an explicit verification status and notes", () => {
     for (const source of sources) {
-      expect(source.verificationStatus).toBe("placeholder");
+      expect(VERIFICATION_STATUSES).toContain(source.verificationStatus);
+      // Non-verified entries must say what remains to be checked; verified
+      // entries must record how they were checked.
+      expect(source.notes ?? "").not.toBe("");
+    }
+  });
+
+  it("never marks a source verified without a same-environment retrieval note", () => {
+    // "verified" is reserved for sources that were retrieved and read. This
+    // environment's network policy prevents retrieval, so nothing should be
+    // verified yet; corroborated is the ceiling. Relax this test once a
+    // human (or an unrestricted environment) performs real retrievals.
+    for (const source of sources) {
+      expect(source.verificationStatus).not.toBe("verified");
     }
   });
 

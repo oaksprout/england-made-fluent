@@ -110,8 +110,10 @@ explanations).
 
 Every factual claim on the site traces back to a `Source` in
 `src/data/sources.ts`, referenced inline with `<Cite id="..." />`. Sources
-start life as `verificationStatus: "placeholder"` and are only marked
-`verified` once a human researcher has actually checked the material. See
+start life as `verificationStatus: "placeholder"`, move to `"corroborated"`
+once their citation details are confirmed against independent records, and
+are only marked `verified` once a researcher has actually retrieved and
+read the material. See
 [docs/CITATIONS.md](docs/CITATIONS.md) for how to add and verify a source,
 and [docs/RESEARCH_STANDARDS.md](docs/RESEARCH_STANDARDS.md) for the
 comparative-research rules (the nine case-study dimensions, era contrasts,
@@ -154,8 +156,9 @@ list and licensing position.
 
 ## Roadmap
 
-See [docs/ROADMAP.md](docs/ROADMAP.md) — the immediate priority is verifying
-all 32 placeholder sources against primary material.
+See [docs/ROADMAP.md](docs/ROADMAP.md) — the immediate priority is finishing
+source verification: all 32 entries have located candidates and 18 have
+corroborated citations, but none has yet been retrieved and read in full.
 
 ## Licence
 

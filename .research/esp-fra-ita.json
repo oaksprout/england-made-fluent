@@ -1,0 +1,70 @@
+[
+  {
+    "id": "rfef-development-method",
+    "title": "La metodología de trabajo de las categorías inferiores de España, objeto de estudio en Italia",
+    "organisation": "Real Federación Española de Fútbol",
+    "url": "https://rfef.es/es/noticias/la-metodologia-de-trabajo-de-las-categorias-inferiores-de-espana-objeto-de-estudio-en",
+    "accessedDate": null,
+    "sourceType": "official",
+    "verificationStatus": "placeholder",
+    "notes": "Located via WebSearch (not fetched). This RFEF news item appears to directly describe the working methodology used across Spain's youth national-team categories (attributed to Francis Hernández, coordinator of the men's lower-category national teams), including talent detection and a shared development model — a strong candidate for the 'shared coach-education / positional-technical curriculum' claim. It does NOT, on search-snippet evidence alone, address the second supports claim (consistency of tactical vocabulary flowing from youth into the senior team) — that would need separate confirmation, likely from a different RFEF methodology or coach-education page (e.g. https://rfef.es/es/formacion/entrenadores/introduccion or the RFEF Master's programme PDFs at rfef.es/sites/default/files/pdf/master_entrenador_programa_0.pdf, also located but not fetched). WebFetch on this URL, and on the RFEF root domain and the alternate candidate pages, all returned HTTP 403 in this environment. To rule out a per-site bot block, I cross-tested WebFetch against control domains with no plausible reason to block automated fetches (https://www.wikipedia.org, https://example.com, https://www.anthropic.com) and all three also returned HTTP 403 — this indicates WebFetch itself was non-functional for this entire session, not that RFEF specifically blocked the request. Re-attempt fetch in a future session before promoting to 'verified'.",
+    "comment": "Best available candidate given search evidence; content not read directly, so the first supports claim is only partially corroborated and the second is unconfirmed. Do not treat as verified."
+  },
+  {
+    "id": "spain-la-masia-context",
+    "title": "La Masia (overview of methodology, history, and links to Spain's 2008-2012 golden generation)",
+    "organisation": "English Wikipedia / general football journalism (no single confirmed academic or Guardian/Athletic long-read located)",
+    "url": "https://en.wikipedia.org/wiki/La_Masia",
+    "accessedDate": null,
+    "sourceType": "academic",
+    "verificationStatus": "placeholder",
+    "notes": "Could not identify or confirm a specific peer-reviewed academic source, nor a specific Guardian/Athletic long-read article with a real, confirmable URL, despite several targeted WebSearch queries (tried: 'La Masia Spain national team tactical style Guardian Athletic', 'Sid Lowe Guardian tiki-taka article url', 'La Masia academic paper youth academy Barcelona methodology study journal'). Search results repeatedly surfaced secondary blogs/SEO content rather than a primary long-form piece; search summaries reference Sid Lowe's Guardian coverage of tiki-taka and Spain's tactical evolution, but no specific article URL could be confirmed as real rather than inferred, so per the 'never invent a URL' rule I have not fabricated one. An arXiv network-science paper on Guardiola's Barcelona (https://arxiv.org/pdf/1909.08903, 'Defining a historic football team: Using Network Science to analyze Guardiola's F.C. Barcelona') surfaced as a genuine academic candidate but concerns the first team's network structure, not La Masia's youth methodology or the contested academy-vs-system question specifically, so it is only a partial match at best. English Wikipedia's La Masia article is the most directly on-topic located candidate but is not a peer-reviewed or high-end journalistic source per this site's standards. WebFetch on https://en.wikipedia.org/wiki/La_Masia returned HTTP 403 in this environment (part of the same session-wide WebFetch outage described in the rfef-development-method entry, confirmed via control-domain tests), so none of this could be read and confirmed in-session regardless.",
+    "comment": "No source verified. The contested 'one academy vs. whole system' framing in the entry's second supports claim in particular still needs a genuine academic or serious-journalism source; none was confirmed this session. Recommend a follow-up session with working WebFetch, searching specifically theguardian.com and theathletic.com site-restricted queries for Sid Lowe / Guardian pieces on tiki-taka's Spanish-system origins."
+  },
+  {
+    "id": "fff-clairefontaine",
+    "title": "Notre histoire (FFF institutional history, including INF/Centre National du Football Clairefontaine)",
+    "organisation": "Fédération Française de Football",
+    "url": "https://www.fff.fr/121-notre-histoire.html",
+    "accessedDate": null,
+    "sourceType": "official",
+    "verificationStatus": "placeholder",
+    "notes": "Located via WebSearch as the FFF's own institutional-history page, which should cover the Centre National du Football / INF Clairefontaine. WebSearch summaries from other sources (French and English Wikipedia articles on INF Clairefontaine / Centre technique national Fernand-Sastre, not this FFF page) independently corroborate the 1988 founding: the Centre National du Football (INF Clairefontaine) was inaugurated 11 June 1988 by President Mitterrand, with FIFA president João Havelange present, after the INF Vichy cohort relocated there in January 1988; it was restructured into a 13-16 pre-training centre in 1990 under DTN Gérard Houllier. That detail comes from Wikipedia search snippets, not from a fetch of the FFF page itself, so it is NOT recorded as verified here. A candidate staging/preview URL, https://cnf-clairefontaine-pre.fff.fr/20-l-histoire-du-cnf.html, appeared in search results but the domain failed to resolve (DNS error) when fetch was attempted, so it is not usable as a citation. WebFetch on https://www.fff.fr/121-notre-histoire.html returned HTTP 403 in this environment (same session-wide WebFetch outage noted elsewhere in this file).",
+    "comment": "Founding date (1988) is plausible and multiply attested in search snippets, but I have not myself read the FFF page or a primary source this session, and the entry's second supports claim (contested causal role in 1998) is entirely unaddressed by this candidate — a historian/analyst source disputing the simple causal story still needs to be found. Keep as placeholder."
+  },
+  {
+    "id": "france-academy-system",
+    "title": "Les centres de formation agréés",
+    "organisation": "Fédération Française de Football",
+    "url": "https://www.fff.fr/97-les-centres-de-formation-agrees.html",
+    "accessedDate": null,
+    "sourceType": "official",
+    "verificationStatus": "placeholder",
+    "notes": "Located via WebSearch as the FFF's own page listing FFF/Ministry-of-Sport-approved club training centres — a strong on-topic candidate for the claim about a dense, geographically distributed academy network. Search-result summaries (drawn from secondary sites, not a direct fetch of this FFF page) mention roughly 37 approved centres as of 2022 covering the country from Brittany to Corsica, and cite FFF-published efficacité/output data (e.g. media.fff.fr PDF 'DES CENTRES DE FORMATION 2024-2025 EFFICACITÉ') as the kind of material that could substantiate a production-volume claim. None of this has been read directly. WebFetch on this URL returned HTTP 403 in this environment (same session-wide WebFetch outage).",
+    "comment": "Good candidate, content plausible from search snippets only. The second supports claim (production of technically/athletically diverse talent as an explanation for national success) needs a source that goes beyond raw centre-count/output stats to make that explanatory claim; not yet located specifically."
+  },
+  {
+    "id": "figc-coverciano",
+    "title": "Il CTF di Coverciano: la storia",
+    "organisation": "Federazione Italiana Giuoco Calcio",
+    "url": "https://www.figc.it/it/nazionali/club-italia/il-ctf-di-coverciano-la-storia",
+    "accessedDate": null,
+    "sourceType": "official",
+    "verificationStatus": "placeholder",
+    "notes": "Located via WebSearch as FIGC's own official history page for the Centro Tecnico Federale (Coverciano). Search summaries (partly from this FIGC page's indexed content, partly from Italian/English Wikipedia on Centro Tecnico Federale Luigi Ridolfi) state it was inaugurated 6 November 1958, with the decision to build it made in 1952 and construction finished October 1957; it hosts UEFA Pro/A coach courses, sporting-director, futsal, athletic-trainer, scout and match-analyst courses, and is known as the 'Casa degli Azzurri'. None of this was read by me directly this session. WebFetch on this URL, and on the figc.it root domain, both returned HTTP 403 (same session-wide WebFetch outage confirmed via control-domain tests).",
+    "comment": "Founding date and general role as national coach-education centre look well supported by search snippets, but the entry's second supports claim — specific emphasis on defensive organisation/game-state reading in the syllabus — is not addressed by anything found so far and would need the actual syllabus/curriculum content, which I could not fetch. Keep as placeholder."
+  },
+  {
+    "id": "italy-tactical-culture",
+    "title": "Inverting the Pyramid: The History of Football Tactics",
+    "author": "Jonathan Wilson",
+    "organisation": "Orion Publishing Group",
+    "publicationDate": "2009",
+    "url": "https://www.orionbooks.co.uk/titles/jonathan-wilson/inverting-the-pyramid/9781409111115/",
+    "accessedDate": null,
+    "sourceType": "book",
+    "verificationStatus": "placeholder",
+    "notes": "Jonathan Wilson's 'Inverting the Pyramid' (Orion, UK, first published 2009; also published by Nation Books in the US, and a fully revised 15th-anniversary edition exists) is a genuine, widely-cited book covering the history of football tactics, including a chapter-level treatment of Italian catenaccio and Arrigo Sacchi's shift to zonal-marking, high-pressing football at Milan in the late 1980s — this matches the entry's brief well on search-snippet evidence. I could not confirm exact page-level claims, nor find/confirm a URL for a specific standalone Jonathan Wilson article (e.g. in The Guardian's 'The Question' column) about catenaccio specifically; two dated Wilson Guardian 'Question' columns turned up in search (22 Sept 2009 on the sweeper's possible return; 23 Dec 2009 on the next decade of tactics) but neither is confirmed to be centrally about catenaccio/Sacchi, and I did not fabricate a more specific-sounding URL. WebFetch on the Orion Books publisher page returned HTTP 403 in this environment (same session-wide WebFetch outage), so even the publisher's own description of the book's contents was not read by me.",
+    "comment": "Book's existence, author, publisher and general subject matter (football tactics history including catenaccio/Sacchi) are corroborated by multiple independent search results, but I have not read any primary text confirming the entry's specific supports claims (1982/2006 World Cup wins, Euro 2020, the late-1980s zonal-marking reform) are addressed in this book with correct dates. Also unaddressed: the entry note's caution against reducing 'Italian football' to a single stereotype — not confirmed one way or the other. Keep as placeholder; a follow-up session should fetch the publisher page or a detailed table-of-contents/review to confirm scope, and separately verify the tournament-win dates (1982, 2006, Euro 2020) against a results source."
+  }
+]

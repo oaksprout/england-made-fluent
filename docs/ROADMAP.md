@@ -6,15 +6,17 @@ project's own standards (see
 [docs/RESEARCH_STANDARDS.md](RESEARCH_STANDARDS.md)) say it still owes
 readers.
 
-## 1. Verify all 32 placeholder sources
+## 1. Finish verifying all 32 sources
 
-Every source in `src/data/sources.ts` currently carries
-`verificationStatus: "placeholder"`. That means every claim on the site is,
-by the site's own stated standard, an unverified working claim rather than
-a checked fact — visibly flagged as such in every `Cite` popover and on
-`/sources/`, but still the single biggest gap between what this project
-argues and what it has actually confirmed. This is the top priority, ahead
-of any new feature or page. See
+A research pass (July 2026) located candidate primary material for all 32
+sources and corroborated exact citation details for 18 of them against
+independent records — but the sandboxed environment it ran in could not
+retrieve the documents themselves, so nothing is yet `verified`. Every
+claim on the site therefore remains, by the site's own stated standard, a
+working claim rather than a checked fact — visibly flagged as such in every
+`Cite` popover and on `/sources/`. Retrieving and reading each candidate
+(they are recorded in each entry's `url` and `notes`) is the top priority,
+ahead of any new feature or page. See
 [docs/CITATIONS.md](CITATIONS.md#the-verification-workflow-placeholder--verified)
 for the verification workflow itself.
 

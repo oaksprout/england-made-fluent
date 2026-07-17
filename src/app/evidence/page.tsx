@@ -27,7 +27,10 @@ export default function EvidencePage() {
   const placeholderCount = sources.filter(
     (source) => source.verificationStatus === "placeholder",
   ).length;
-  const verifiedCount = total - placeholderCount;
+  const corroboratedCount = sources.filter(
+    (source) => source.verificationStatus === "corroborated",
+  ).length;
+  const verifiedCount = total - placeholderCount - corroboratedCount;
 
   return (
     <div className="mx-auto max-w-4xl px-4 py-16 sm:px-6 sm:py-24">
@@ -56,7 +59,7 @@ export default function EvidencePage() {
           title="Research agenda"
           lede="Every factual claim on this site is backed by a source entry with a stated verification status. Right now, that status is honest rather than reassuring."
         />
-        <Card className="grid gap-6 sm:grid-cols-3">
+        <Card className="grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
           <div>
             <p className="font-display text-4xl font-black text-ink">{total}</p>
             <p className="mt-1 text-sm text-ink-faint">
@@ -68,7 +71,15 @@ export default function EvidencePage() {
               {placeholderCount}
             </p>
             <p className="mt-1 text-sm text-ink-faint">
-              Currently placeholder, awaiting human verification
+              Placeholder — candidate located, awaiting verification
+            </p>
+          </div>
+          <div>
+            <p className="font-display text-4xl font-black text-navy-soft">
+              {corroboratedCount}
+            </p>
+            <p className="mt-1 text-sm text-ink-faint">
+              Corroborated citations — full text not yet checked
             </p>
           </div>
           <div>

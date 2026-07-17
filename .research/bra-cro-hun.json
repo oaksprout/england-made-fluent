@@ -1,0 +1,47 @@
+[
+  {
+    "id": "brazil-development-structures",
+    "title": "CBF working group to reform Brazil's youth development categories (categorias de base)",
+    "organisation": "Confederação Brasileira de Futebol",
+    "url": "https://www.cbf.com.br/a-cbf/noticias/informes-cbf/a/cbf-cria-grupo-de-trabalho-para-propor-melhorias-nas-categorias-de-base-do-futebol-do-brasil",
+    "accessedDate": "2026-07-16",
+    "sourceType": "official",
+    "verificationStatus": "placeholder",
+    "notes": "Located via WebSearch (not fetched): a CBF news page describing a newly formed CBF working group to propose improvements to Brazil's base/youth categories, referencing tactical, physical and mental 'pillars' of formation. This is a plausible official-source candidate for the entry's claim about Brazil's development system, but it is a 2026-era reform article and does not, on search-snippet evidence alone, substantiate the specific 'jogo bonito vs structured organisation' tension the entry needs — it would need to be read in full. Two academic alternatives were also located but not fetched: (1) 'The Poor \"Wealth\" of Brazilian Football: How Poverty May Shape Skill and Expertise of Players', PMC7991596 (PubMed Central), which appears directly on-topic for the technical-ability-at-scale claim; (2) a Sheffield Hallam University repository PDF by Davids et al., 'The role of family and football academy in developing [Brazilian players]' (https://shura.shu.ac.uk/31294/4/Davids-TheRoleOf(AM).pdf), also on-topic. None of these three candidates could be fetched in this session (see comment) so none can be marked verified. Recommend a follow-up session re-attempt the PMC7991596 URL first, then the CBF page, then the Sheffield Hallam PDF.",
+    "comment": "WebFetch was non-functional for the entire session: every attempted host returned HTTP 403, including control hosts with no plausible content policy issue (https://example.com and https://www.anthropic.com). A direct `curl` through the configured HTTPS_PROXY confirmed the failure is at the proxy/gateway level ('CONNECT tunnel failed, response 403'), and /__agentproxy/status logged matching 'gateway answered 403 to CONNECT (policy denial or upstream failure)' entries for unrelated hosts (en.wikipedia.org, web.archive.org, www.google.com, football-observatory.com, example.com) attempted during this task. Per the proxy README, 403 from the gateway is an organisation policy denial that should be reported, not retried or routed around. WebSearch (a separate, non-proxied tool) worked normally and was used to identify candidate sources, but per the task's strict rules, locating a URL via search is not verification — only a same-session WebFetch of the final URL counts, and none succeeded. All four assigned entries are therefore reported as placeholder with candidate URLs recorded for a future session once network egress is available."
+  },
+  {
+    "id": "hns-croatia-continuity",
+    "title": "Croatian Football Federation (HNS) — official site / development",
+    "organisation": "Hrvatski Nogometni Savez",
+    "url": "https://hns.family/en/",
+    "accessedDate": "2026-07-16",
+    "sourceType": "official",
+    "verificationStatus": "placeholder",
+    "notes": "Located via WebSearch (not fetched): the current HNS official site (hns.family/en/, migrated from the older hns-cff.hr domain referenced in some older citations). A UEFA national-association profile page for Croatia, 'Developing football in Croatia' (https://www.uefa.com/nationalassociations/cro/), was also located and looks like a strong candidate for describing youth development/coach education structures at a level a football-policy site could cite. Secondary journalism candidates found only as low-confidence search snippets, not verified as genuine long-read journalism: a Substack piece ('Why are Croatia so good at football?', worldpolitics.substack.com) and a self-published tactical/academy blog (breakingthelines.com on the Dinamo Zagreb academy) — neither should be treated as equivalent to Guardian/BBC/Athletic-tier journalism without being fetched and read in full, and self-published Substack in particular should probably be avoided even if fetchable. No Guardian, BBC or Athletic long-read URL was confirmed by search; that avenue needs a more targeted search pass. None of the candidate URLs could be fetched this session, so the specific claims about squad continuity across 1998/2018/2022 and the technical central-midfield tradition remain unverified against primary squad lists or credible secondary sources.",
+    "comment": "Same session-wide WebFetch outage as documented in the brazil-development-structures entry above — all outbound HTTPS fetches returned HTTP 403 at the proxy/gateway level, confirmed against unrelated control hosts. Kept as placeholder because no fetch succeeded in this session."
+  },
+  {
+    "id": "hungary-1950s-historical",
+    "title": "Match of the Century (England 3–6 Hungary, Wembley, 25 November 1953)",
+    "organisation": "Football history literature",
+    "url": "https://en.wikipedia.org/wiki/Match_of_the_Century_(1953_England_v_Hungary_football_match)",
+    "accessedDate": "2026-07-16",
+    "sourceType": "historical",
+    "verificationStatus": "placeholder",
+    "notes": "Located via WebSearch (not fetched): search-result summaries (not a session fetch) consistently and independently describe the match as played 25 November 1953 at Wembley, England 3 Hungary 6, in front of roughly 105,000 spectators, with Hungary playing a 3-2-3-2 with Nándor Hidegkuti as a deep-lying centre-forward and József Bozsik in deep midfield, against England's WM formation, and describe the result as prompting a reassessment of English tactics and training. This matches the entry's `supports` claims closely. Strong fetchable-candidate URLs identified: the Wikipedia 'Match of the Century' article, a FIFA.com retrospective ('Hungary: The Magical Magyars wow', fifa.com/en/news/articles/hungary-magical-magyars-puskas-hidegkuti-england-wembley-1953-six-three), and a History Today piece ('Hungary's Golden Squad', historytoday.com/reviews/hungarys-golden-squad). None of these could be fetched in this session, so despite the search-snippet content being consistent across independent sources, the rules require an actual same-session fetch before marking verified — this stays placeholder. This is the strongest candidate of the four assignments for quick verification once network access is restored, since three independent, credible-looking sources already converge on the same facts in search snippets.",
+    "comment": "Same session-wide WebFetch outage as documented above (HTTP 403 on every host attempted, including control hosts example.com and anthropic.com; proxy status log shows matching gateway policy-denial entries). No fetch succeeded, so verificationStatus stays placeholder even though search snippets are consistent."
+  },
+  {
+    "id": "inverting-the-pyramid",
+    "title": "Inverting the Pyramid: The History of Football Tactics",
+    "author": "Jonathan Wilson",
+    "publicationDate": "2008-09-02",
+    "url": "https://www.orionbooks.co.uk/titles/jonathan-wilson/inverting-the-pyramid/9781409111115/",
+    "accessedDate": "2026-07-16",
+    "sourceType": "book",
+    "verificationStatus": "placeholder",
+    "notes": "Located via WebSearch (not fetched): an Orion Books (UK publisher) title page for this book at the URL above, matching the sourcing guidance to prefer a publisher page. Search results (AbeBooks/Amazon/Goodreads listings, not fetched) converge on: first published by Orion in the UK, hardcover, 2 September 2008, ISBN-10 0752889958 / ISBN-13 9780752889955, 374pp, with later UK/US editions and a 2018-updated edition also in circulation (US editions have circulated under Nation Books/Bold Type Books, part of Hachette Book Group, e.g. hachettebookgroup.com/titles/jonathan-wilson/inverting-the-pyramid/9781645030522). None of these pages could be actually fetched this session (Orion, Hachette, Google Books and Goodreads pages all attempted, all returned HTTP 403 at the proxy/gateway level), so the publicationDate and ISBN above are recorded as strong search-derived candidates only, not confirmed by a same-session fetch, and per the task rules verificationStatus must stay 'placeholder' until the Orion (or Hachette) page is actually read in this environment.",
+    "comment": "Same session-wide WebFetch outage as documented above. Multiple candidate publisher/retailer pages for this exact book were identified by search but none was fetchable in this session, so the entry remains placeholder despite a high-confidence candidate URL and metadata."
+  }
+]

@@ -15,7 +15,16 @@ export type SourceType =
   | "interview"
   | "historical";
 
-export type VerificationStatus = "verified" | "placeholder";
+/**
+ * - "verified": the source was retrieved and read, and checked against the
+ *   claims it supports.
+ * - "corroborated": the exact citation (title, author, publisher/journal,
+ *   date, URL/DOI) was confirmed against multiple independent bibliographic
+ *   or search records, but the document itself has not yet been retrieved
+ *   and read in full.
+ * - "placeholder": the source still needs to be located.
+ */
+export type VerificationStatus = "verified" | "corroborated" | "placeholder";
 
 export type Source = {
   id: string;

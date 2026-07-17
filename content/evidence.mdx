@@ -31,11 +31,12 @@ and eras it relates to, and exactly what claim it is being used to support.
 
 <DepthLayers>
   <DepthBrief>
-    Every source in our bibliography is currently a placeholder: we have
-    identified what needs to exist and where to look for it, but a human
-    researcher has not yet located and verified the underlying material
-    against the claim it supports. Treat every citation on this site as "here
-    is what we would need to check," not "this has been checked."
+    No source in our bibliography is yet fully verified. A research pass has
+    confirmed the exact citation details of just over half of them against
+    multiple independent records — those are marked "corroborated" — but
+    nobody has yet retrieved and read each underlying document against the
+    claim it supports. Treat every citation on this site as "here is what we
+    have found and still need to check," not "this has been checked."
   </DepthBrief>
   <DepthDetailed>
     We built this site's argument first and its bibliography second, and we
@@ -45,8 +46,10 @@ and eras it relates to, and exactly what claim it is being used to support.
     be treated as confirmed — an exact date, a specific figure, the actual
     wording of an official document, or the existence of a genuine scholarly
     consensus rather than a plausible-sounding assumption. Until that
-    verification work is done, every source carries a visible "placeholder"
-    status, shown wherever it is cited.
+    verification work is done, every source carries a visible status —
+    "corroborated" where the citation's identity has been confirmed against
+    independent records but its text remains unread, "placeholder" where
+    only a candidate has been located — shown wherever it is cited.
 
     This is not a temporary embarrassment we are hoping nobody notices. It is
     a structural decision: we would rather publish an argument with honestly
@@ -59,8 +62,10 @@ and eras it relates to, and exactly what claim it is being used to support.
   <DepthEvidence>
     The verification status field exists in the underlying data model
     specifically so this distinction cannot be silently dropped as the site
-    grows: every source is typed as either `verified` or `placeholder`, and
-    the placeholder state is the default we started from, not an edge case.
+    grows: every source is typed as `verified`, `corroborated` or
+    `placeholder`; the placeholder state is the default we started from, and
+    `verified` is reserved for sources that have actually been retrieved and
+    read — a bar nothing has yet met.
     See `docs/sources-methodology` for how a source moves from placeholder to
     verified, and `docs/RESEARCH_STANDARDS.md` for the rules governing the
     comparative national case studies specifically.

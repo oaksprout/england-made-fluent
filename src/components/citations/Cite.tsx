@@ -127,6 +127,10 @@ export function Cite({ id, children }: CiteProps) {
             <span className="mb-1.5 inline-block rounded-full bg-red-deep/10 px-2 py-0.5 font-display text-[0.65rem] font-semibold uppercase tracking-wide text-red-deep">
               Unverified — placeholder awaiting verification
             </span>
+          ) : source.verificationStatus === "corroborated" ? (
+            <span className="mb-1.5 inline-block rounded-full border border-navy/30 px-2 py-0.5 font-display text-[0.65rem] font-semibold uppercase tracking-wide text-navy">
+              Corroborated citation — text unchecked
+            </span>
           ) : null}
           <p className="mt-1.5 font-display text-sm font-semibold leading-snug text-ink">
             {source.title}

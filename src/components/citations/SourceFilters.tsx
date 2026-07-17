@@ -21,6 +21,7 @@ const SOURCE_TYPE_LABEL: Record<SourceType, string> = {
 
 const VERIFICATION_LABEL: Record<VerificationStatus, string> = {
   verified: "Verified",
+  corroborated: "Corroborated",
   placeholder: "Placeholder",
 };
 
@@ -179,22 +180,26 @@ export function SourceFilterList({ sources }: SourceFilterListProps) {
             Verification status
           </legend>
           <div className="flex flex-wrap gap-2">
-            {(["all", "verified", "placeholder"] as const).map((status) => (
-              <button
-                key={status}
-                type="button"
-                aria-pressed={verification === status}
-                onClick={() => setVerification(status)}
-                className={cn(
-                  "min-h-11 rounded-full border px-4 py-2 text-sm font-medium transition-colors",
-                  verification === status
-                    ? "border-navy bg-navy text-chalk"
-                    : "border-line text-ink-soft hover:border-navy hover:text-navy",
-                )}
-              >
-                {status === "all" ? "All sources" : VERIFICATION_LABEL[status]}
-              </button>
-            ))}
+            {(["all", "verified", "corroborated", "placeholder"] as const).map(
+              (status) => (
+                <button
+                  key={status}
+                  type="button"
+                  aria-pressed={verification === status}
+                  onClick={() => setVerification(status)}
+                  className={cn(
+                    "min-h-11 rounded-full border px-4 py-2 text-sm font-medium transition-colors",
+                    verification === status
+                      ? "border-navy bg-navy text-chalk"
+                      : "border-line text-ink-soft hover:border-navy hover:text-navy",
+                  )}
+                >
+                  {status === "all"
+                    ? "All sources"
+                    : VERIFICATION_LABEL[status]}
+                </button>
+              ),
+            )}
           </div>
         </fieldset>
       </div>

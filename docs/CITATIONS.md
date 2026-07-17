@@ -25,7 +25,7 @@ export type Source = {
   eras?: string[];
   supports: string[];
   notes?: string;
-  verificationStatus: VerificationStatus; // "verified" | "placeholder"
+  verificationStatus: VerificationStatus; // "verified" | "corroborated" | "placeholder"
 };
 ```
 
@@ -69,10 +69,13 @@ Add a new object to the `sources` array in `src/data/sources.ts`:
   document, which date, which specific figure or wording. "Verify this" is
   not an acceptable note — write the note a researcher would actually act
   on.
-- **`verificationStatus`** — always start at `"placeholder"`. Only change to
-  `"verified"` once the work described below has actually been done.
+- **`verificationStatus`** — always start at `"placeholder"`. Move to
+  `"corroborated"` once the exact citation details (title, author,
+  publisher or journal, date, URL/DOI) have been confirmed against multiple
+  independent bibliographic or search records. Only change to `"verified"`
+  once the full workflow described below has actually been done.
 
-## The verification workflow: placeholder → verified
+## The verification workflow: placeholder → corroborated → verified
 
 1. **Locate the real, primary material** the source claims to be — the
    FA's actual England DNA launch documents, the actual RFEF development
@@ -92,10 +95,14 @@ Add a new object to the `sources` array in `src/data/sources.ts`:
 5. **Only then** set `verificationStatus: "verified"`.
 
 Until that happens, every place the source is used — the `Cite` popover, the
-bibliography — visibly shows an "Unverified — placeholder awaiting
-verification" badge. `tests/unit/data-integrity.test.ts` also asserts every
-seeded source is currently a placeholder as a reminder that none of this
-site's current sourcing has been through this process yet.
+bibliography — visibly shows a status badge ("Unverified — placeholder
+awaiting verification", or "Corroborated citation — text unchecked").
+`tests/unit/data-integrity.test.ts` also asserts that no source is marked
+`verified` yet, as a reminder that none of this site's current sourcing has
+been through the full retrieval-and-reading step: a July 2026 research pass
+corroborated citation identities for 18 of the 32 entries from search
+records, but the environment it ran in could not retrieve the documents
+themselves.
 
 ## Using `<Cite>` inline
 

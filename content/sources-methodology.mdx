@@ -34,20 +34,24 @@ policy document, or a data point that could have been superseded since. The
 accessed date tells a reader how current our reference point was, even when
 the underlying publication date is older or unclear.
 
-## Verification status, and what "placeholder" actually means
+## Verification status, and what each status actually means
 
-Every source carries a status of either `verified` or `placeholder`. As of
-this site's initial publication, every source in the bibliography is a
-placeholder: we have identified the organisation or literature that should
-hold the relevant material and written a specific note describing what a
-human researcher needs to locate and check, but nobody has yet done that
-verification work against the exact claim the source is attached to.
+Every source carries one of three statuses. `placeholder` means we have
+identified the organisation or literature that should hold the relevant
+material — usually with a specific candidate URL — but neither the
+citation's identity nor its content has been sufficiently confirmed.
+`corroborated` means the exact citation details (title, author, publisher
+or journal, date, URL or DOI) have been confirmed against multiple
+independent bibliographic and search records, but the document itself has
+not yet been retrieved and read in full against the claim it supports.
+`verified` — which no source has yet reached — means a researcher has
+retrieved and read the material and checked it directly against the claim.
 
-A placeholder status is not a minor caveat. It means: do not treat any date,
-figure, or characterisation of a source's contents on this site as confirmed
-until the entry has been updated to `verified`. The `<Cite>` marker used
-throughout the site visibly flags placeholder sources wherever they appear,
-rather than hiding the distinction in fine print.
+These statuses are not minor caveats. Until an entry reaches `verified`, do
+not treat any date, figure, or characterisation of a source's contents on
+this site as confirmed. The `<Cite>` marker used throughout the site visibly
+flags non-verified sources wherever they appear, rather than hiding the
+distinction in fine print.
 
 ## How sources are prioritised
 

@@ -1,0 +1,70 @@
+[
+  {
+    "id": "fa-england-dna-launch",
+    "title": "England DNA philosophy unveiled at St George's Park",
+    "organisation": "The Football Association",
+    "publicationDate": "2014-12",
+    "url": "https://www.thefa.com/news/2014/dec/04/england-dna-launch",
+    "accessedDate": "2026-07-16",
+    "sourceType": "official",
+    "verificationStatus": "placeholder",
+    "notes": "WebSearch located what is very likely the correct primary source: an FA news page dated 4 December 2014, 'England DNA philosophy unveiled at St. George's Park', naming Gareth Southgate, Dan Ashworth (director of elite development) and Matt Crocker as presenters, and describing a five-part framework ('Who we are', 'How we play', 'The future England player', 'How we coach', 'How we support') aimed at England age-group teams from U15 to U21/U23. This matches the entry's supports claims closely. HOWEVER I could not fetch this URL (or any URL at all) in this session — every WebFetch call and every direct curl call from this environment returned HTTP 403 'CONNECT tunnel failed' from the egress proxy, including for control URLs unrelated to this project (example.com, google.com, en.wikipedia.org, web.archive.org). This is a total outbound-network block for this session, not evidence against thefa.com specifically, and I could not even confirm an archive.org snapshot as the task suggested for dead FA pages, because archive.org itself is blocked here too. verificationStatus must stay 'placeholder' until someone with working network access fetches this URL (or its archive.org snapshot) and confirms the content and exact date directly.",
+    "comment": "Strong, specific candidate found via search (thefa.com/news/2014/dec/04/england-dna-launch, dated 4 Dec 2014) but network access was completely blocked in this session so I could not fetch and read it myself — do not treat the search-engine summary as a substitute for a real fetch. Re-run with a working WebFetch/curl to confirm and flip to verified."
+  },
+  {
+    "id": "fa-england-dna-updates",
+    "title": "England DNA — later FA coaching-resource material (Boot Room / coach education)",
+    "organisation": "The Football Association",
+    "url": "https://www.thefa.com/bootroom/resources/england-dna",
+    "accessedDate": "2026-07-16",
+    "sourceType": "official",
+    "verificationStatus": "placeholder",
+    "notes": "This claim ('England DNA has been revised or restated... since its original launch' and 'public visibility... has varied across different FA regimes and technical directors') is inherently a synthesis claim that would need several time-stamped FA sources compared against each other, not a single citable page. WebSearch surfaced ongoing FA 'Boot Room' resources referencing England DNA (e.g. thefa.com/bootroom/resources/england-dna, thefa.com/bootroom/england-dna-foundation-phase, and a 2017 thefa.com Boot Room Q&A 'what does the DNA mean to you') suggesting the framework has persisted and been elaborated over time, but I found no single dated FA statement explicitly announcing a formal revision, renaming or de-emphasis, nor any statement about which technical director currently owns it. I could not fetch any of these candidate URLs — same total network block described in the fa-england-dna-launch entry (confirmed via example.com, google.com, wikipedia.org and archive.org all returning 403 from the egress proxy). Do not cite specific claims of 'revision' from this entry until a human researcher gathers dated primary sources spanning multiple years and reads them directly.",
+    "comment": "Weakest of the six assignments: even with working network access this claim would likely need 2-3 separate dated sources rather than one URL. I have not verified anything here; treat the candidate URL as a starting point only, not a confirmed citation."
+  },
+  {
+    "id": "fa-st-georges-park",
+    "title": "St George's Park — the FA's national football centre",
+    "organisation": "The Football Association",
+    "publicationDate": "2012",
+    "url": "https://www.englandfootball.com/england/st-georges-park",
+    "accessedDate": "2026-07-16",
+    "sourceType": "official",
+    "verificationStatus": "placeholder",
+    "notes": "WebSearch results describe St George's Park as the FA's national football centre at Burton upon Trent, Staffordshire, opened by the Duke and Duchess of Cambridge on 9 October 2012, hosting all England teams, FA coach education, and sports-science/medicine facilities — consistent with the entry's supports claims. Best current official candidate URL is englandfootball.com/england/st-georges-park (thefa.com's older SGP pages, e.g. thefa.com/about-football-association/st-georges-park, are an alternative). I could not fetch either URL, or any URL, in this session: WebFetch and direct curl both returned HTTP 403 'CONNECT tunnel failed' for every domain tested, including neutral control domains (example.com, google.com) and web.archive.org, indicating a total outbound-network block for this session rather than a problem with these specific sources. The 9 October 2012 opening date and the 'all England teams under one roof' claim both need direct confirmation from a fetched page before being treated as fact.",
+    "comment": "Search results are consistent and specific (9 Oct 2012 opening, Duke/Duchess of Cambridge, Burton upon Trent) but I have not read the source page myself due to the network block, so this stays placeholder. High confidence the claim is broadly correct based on convergent search evidence, but that is not the same as a verified fetch."
+  },
+  {
+    "id": "england-tournament-record",
+    "title": "England at the FIFA World Cup / England at the UEFA European Championship (Wikipedia)",
+    "url": "https://en.wikipedia.org/wiki/England_at_the_FIFA_World_Cup",
+    "accessedDate": "2026-07-16",
+    "sourceType": "historical",
+    "verificationStatus": "placeholder",
+    "notes": "Per the task's guidance, an official FA/FIFA/UEFA page failing is an acceptable case to fall back to a reputable encyclopedic/statistical source; Wikipedia's 'England at the FIFA World Cup' and 'England at the UEFA European Championship' pages are the best candidates and, per WebSearch summaries, describe: winning the 1966 World Cup on home soil; World Cup semi-finals in 1990 and 2018; failure to progress from the group stage in 1950, 1958 and 2014; European Championship runner-up finishes at Euro 2020 (lost final to Italy on penalties) and Euro 2024 (lost final 2-1 to Spain); and semi-finals in 1968 and 1996. This is broadly consistent with the entry's supports claims (1966 win; recent semi-final/final exits including Euro 2020 final, Euro 2024 final) but the entry also mentions a '2022 World Cup quarter-final' which the search summary did not explicitly confirm (my working knowledge says England lost the 2022 World Cup quarter-final to France, but I did not see this confirmed in fetched text this session, so it is not verified). I could not actually fetch either Wikipedia page or any other page in this session — WebFetch and direct curl both returned HTTP 403 for every domain tried, including en.wikipedia.org itself and unrelated control domains, confirming a total outbound-network block rather than a Wikipedia-specific problem. No exact scorelines or dates should be published from this entry until someone fetches and reads the pages directly.",
+    "comment": "Search-engine summaries look consistent with the claim as written, including the 1966 win and the Euro 2020/2024 final losses, but I never actually read the page text (network fully blocked), and the entry's specific mention of a 2022 World Cup quarter-final was not independently confirmed by search output. Needs a real fetch before flipping to verified."
+  },
+  {
+    "id": "pl-eppp",
+    "title": "Premier League — Elite Player Performance Plan (EPPP)",
+    "organisation": "Premier League",
+    "publicationDate": "2011",
+    "url": "https://www.premierleague.com/en/footballandcommunity/youth-development/EPPP",
+    "accessedDate": "2026-07-16",
+    "sourceType": "official",
+    "verificationStatus": "placeholder",
+    "notes": "WebSearch located the Premier League's own current EPPP hub page (premierleague.com/en/footballandcommunity/youth-development/EPPP) and a related page 'EPPP report highlights decade of progress in youth development' (premierleague.com/en/news/2911912), plus Wikipedia's 'Elite Player Performance Plan' page and the original May 2011 EPPP PDF (hosted at goalreports.com, likely a mirror rather than the Premier League's own domain). Search summaries describe EPPP as accepted by the 72 Football League clubs on 20 October 2011 and introduced in 2012, restructuring academy football into a four-tier category (1-4) system with different funding, contact-hours and staffing requirements per tier — consistent with the entry's supports claims. I could not fetch premierleague.com, the EPPP PDF, or the Wikipedia page in this session: WebFetch and direct curl both returned HTTP 403 for every domain attempted, including neutral controls (example.com, google.com), confirming a total outbound-network block for this session rather than premierleague.com being unreachable specifically. The exact introduction date/year (2011 acceptance vs 2012 introduction — search results gave both) needs to be pinned down from the primary document once network access works.",
+    "comment": "Good, specific official candidate URL and a plausible primary PDF, but nothing was actually fetched and read, so I cannot confirm the category system details or the introduction-year discrepancy (2011 vs 2012) that appeared in search summaries. Stays placeholder."
+  },
+  {
+    "id": "pl-academy-development",
+    "title": "Premier League — Youth Development / Academy Experience (Parent Hub)",
+    "organisation": "Premier League",
+    "url": "https://www.premierleague.com/en/footballandcommunity/youth-development/parent-hub/the-academy-experience",
+    "accessedDate": "2026-07-16",
+    "sourceType": "official",
+    "verificationStatus": "placeholder",
+    "notes": "WebSearch located several current Premier League pages under premierleague.com/en/footballandcommunity/youth-development/ (parent-hub/the-academy-experience, EPPP, EPPP/coaching, EPPP/games-programme) plus third-party summaries (jobsinfootball.com, thepfsa.co.uk) describing the four-tier academy category system, minimum budgets (~£2.5m/year for Category 1), coaching-qualification requirements (UEFA A/Pro licence staff), full-time education provision, and training-model differences (part-time/hybrid/full-time) by category. This is consistent with the entry's second supports claim (Category 1 academies meeting defined coaching/facility/education standards). I found no single official page directly asserting the first supports claim — that academies operate 'distinct playing philosophies... from club to club' — third-party pages allude to variation in style but this specific framing needs a directly quoted PL or club source. I could not fetch any of these candidate URLs: WebFetch and direct curl both returned HTTP 403 for every domain tested this session, including unrelated controls (example.com, google.com), confirming this is a total outbound-network block, not a premierleague.com-specific failure. Do not cite a specific current count of Category 1 academies (search results gave conflicting figures of 25 vs 26) without checking the Premier League's current official list directly.",
+    "comment": "The Category 1 standards claim looks well supported by convergent search evidence; the 'distinct playing philosophies club to club' claim is weaker and may need a different source (e.g. an interview or academy-specific piece) even after network access is restored. Nothing fetched this session, so both claims stay placeholder."
+  }
+]

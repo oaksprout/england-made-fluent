@@ -1,0 +1,54 @@
+[
+  {
+    "id": "shared-mental-models-research",
+    "title": "The Influence of Shared Mental Models on Team Process and Performance",
+    "author": "Mathieu, J. E., Heffner, T. S., Goodwin, G. F., Salas, E. & Cannon-Bowers, J. A.",
+    "organisation": "Journal of Applied Psychology",
+    "publicationDate": "2000",
+    "url": "https://doi.org/10.1037/0021-9010.85.2.273",
+    "accessedDate": null,
+    "sourceType": "academic",
+    "verificationStatus": "placeholder",
+    "notes": "Strong candidate located via search: Mathieu, Heffner, Goodwin, Salas & Cannon-Bowers (2000), Journal of Applied Psychology, 85(2), 273-283, DOI 10.1037/0021-9010.85.2.273. Multiple independent listings (Scientific Research Publishing reference database, ResearchGate, Semantic Scholar, arXiv citations) consistently give this title/author list/journal/year and describe the study as testing whether convergence ('sharedness') of team- and task-based mental models among teammates predicts team process and performance -- directly on-topic for the entry's supports claims about coordinated teams relying on common representations. However, I attempted to fetch the DOI page (https://doi.org/10.1037/0021-9010.85.2.273) and the Semantic Scholar landing page in this session via WebFetch and both returned HTTP 403. I then tested WebFetch against https://example.com as a control and it also returned 403, and the proxy status endpoint (curl $HTTPS_PROXY/__agentproxy/status) shows recent 403 CONNECT denials to en.wikipedia.org, web.archive.org and www.google.com as well -- confirming this is a total organization egress-policy block on outbound HTTPS in this environment, not a site-specific failure. Per instructions this is NOT sufficient verification (proxy-blocked fetches don't count), so this stays 'placeholder' despite strong circumstantial confidence the paper is real and on-topic. Do not mark verified until someone can actually fetch the DOI or a publisher/PsycNet page in an environment with unrestricted egress.",
+    "comment": "Cannon-Bowers, Salas & Converse (1993) 'Shared mental models in expert team decision making' (a book chapter in Castellan's Individual and Group Decision Making) is the other classic candidate the brief suggested, but Mathieu et al. (2000) is a peer-reviewed journal article with a clean DOI, which is easier to verify once fetch access is available, and is at least as on-topic."
+  },
+  {
+    "id": "team-coordination-research",
+    "title": "Why an Expert Team Is More than a Team of Experts: A Social-Cognitive Conceptualization of Team Coordination and Communication in Sport",
+    "author": "Eccles, D. W. & Tenenbaum, G.",
+    "organisation": "Journal of Sport & Exercise Psychology",
+    "publicationDate": "2004",
+    "url": "https://doi.org/10.1123/jsep.26.4.542",
+    "accessedDate": null,
+    "sourceType": "academic",
+    "verificationStatus": "placeholder",
+    "notes": "Strong candidate located via search: Eccles & Tenenbaum (2004), Journal of Sport & Exercise Psychology, 26(4), 542-560, DOI 10.1123/jsep.26.4.542, hosted at the Human Kinetics journals platform (journals.humankinetics.com/view/journals/jsep/26/4/article-p542.xml). Multiple independent listings (Human Kinetics journal page, Semantic Scholar, ScienceScape/scispace, a later ScienceDirect team-cognition-in-sport review citing it) consistently give this title/author list/journal/year, and describe the paper as offering a social-cognitive framework for how expert sport teams coordinate and communicate, extending beyond individual expertise -- directly on-topic for the entry's supports claims about collective tactical/coordination behaviour in sport. I attempted to fetch the Human Kinetics DOI/article page and the Semantic Scholar page via WebFetch in this session; both returned HTTP 403. As documented in the shared-mental-models-research entry, a control fetch to https://example.com also returned 403, and the proxy status endpoint shows the same-session 403s against wikipedia/google/archive.org, confirming a total org-wide egress block, not a site-specific denial. Per instructions this is NOT sufficient to mark 'verified'; kept as 'placeholder'.",
+    "comment": "Note: this paper is a conceptual/theoretical framework paper, not a dynamical-systems/synchrony empirical study, so if used to support the entry's second supports claim ('coordination breaks down predictably under time pressure, fatigue or unfamiliar partnerships') the site copy should be checked against what this specific paper actually argues once verified -- it may better support the first supports claim (team coordination/communication conceptualization) than the second."
+  },
+  {
+    "id": "transfer-of-learning-research",
+    "title": "When and Where Do We Apply What We Learn? A Taxonomy for Far Transfer",
+    "author": "Barnett, S. M. & Ceci, S. J.",
+    "organisation": "Psychological Bulletin",
+    "publicationDate": "2002",
+    "url": "https://doi.org/10.1037/0033-2909.128.4.612",
+    "accessedDate": null,
+    "sourceType": "academic",
+    "verificationStatus": "placeholder",
+    "notes": "Strong candidate located via search: Barnett & Ceci (2002), Psychological Bulletin, 128(4), 612-637, DOI 10.1037/0033-2909.128.4.612, PsycNet record 2002-01514-006 (https://psycnet.apa.org/record/2002-01514-006). Multiple independent listings (Scientific Research Publishing reference database, PsycNet, Semantic Scholar, Cambridge University Press chapter citing it, Global Cognition summary) consistently give this title/author list/journal/year, and describe the paper as proposing a taxonomy of dimensions along which learned knowledge transfers (or fails to transfer) to new contexts -- directly on-topic for the entry's supports claims about transfer of learning between structured environments and shared vocabulary/principles aiding transfer. I attempted to fetch the DOI page and the PsycNet record via WebFetch in this session; both returned HTTP 403, consistent with the total org-wide egress block documented in the shared-mental-models-research entry (control fetch to example.com also 403). Per instructions this is NOT sufficient to mark 'verified'; kept as 'placeholder'.",
+    "comment": "This is a general cognitive/educational-psychology taxonomy paper, not sport- or football-specific, matching the entry's framing that the phenomenon is 'documented in skill-acquisition research generally, not unique to football' -- appropriate to cite as background literature only, not as football-specific evidence."
+  },
+  {
+    "id": "organisational-ambidexterity-research",
+    "title": "Organizational Ambidexterity: Past, Present, and Future",
+    "author": "O'Reilly, C. A. & Tushman, M. L.",
+    "organisation": "Academy of Management Perspectives",
+    "publicationDate": "2013",
+    "url": "https://doi.org/10.5465/amp.2013.0025",
+    "accessedDate": null,
+    "sourceType": "academic",
+    "verificationStatus": "placeholder",
+    "notes": "Strong candidate located via search: O'Reilly & Tushman (2013), Academy of Management Perspectives, 27(4), 324-338, DOI 10.5465/amp.2013.0025, hosted at journals.aom.org/doi/10.5465/amp.2013.0025. Multiple independent listings (AOM Journals page, SSRN abstract page, Stanford GSB faculty publications page, Scientific Research Publishing reference database) consistently give this title/author list/journal/year, and describe the paper as a review of the organizational-ambidexterity literature -- an organization's ability to both explore (adapt, innovate) and exploit (run a stable core efficiently) -- directly on-topic for the entry's supports claim about organisations combining a stable core with flexible adaptation. I attempted to fetch the AOM DOI page and the Stanford GSB and SSRN pages via WebFetch in this session; all returned HTTP 403, consistent with the total org-wide egress block documented in the shared-mental-models-research entry (control fetch to example.com also 403). Per instructions this is NOT sufficient to mark 'verified'; kept as 'placeholder'.",
+    "comment": "Raisch & Birkinshaw (2008, Journal of Management) is the other candidate of equal standing named in the brief; O'Reilly & Tushman (2013) was chosen because it is a review specifically framed as 'past, present, and future' of the field, which matches the entry's general framing best. Site copy must continue to label this as an analogy imported from management research, per the entry's own second supports claim and existing notes."
+  }
+]

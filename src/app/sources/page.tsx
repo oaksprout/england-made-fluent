@@ -41,16 +41,17 @@ export default function SourcesPage() {
         <SourcesMethodology />
       </Prose>
 
-      <Callout tone="note" title="Every current source is a placeholder">
+      <Callout tone="note" title="How far each source has been checked">
         <p>
-          Every source in this bibliography is currently seeded with
-          <code className="mx-1 rounded bg-chalk px-1.5 py-0.5 text-xs">
-            verificationStatus: &quot;placeholder&quot;
-          </code>
-          pending human verification. None of the claims, quotations or figures
-          they support should be treated as confirmed until a researcher has
-          located the underlying material and checked it directly — see the
-          methodology above.
+          Entries marked <strong>corroborated</strong> have had their exact
+          citation details (title, author, publisher or journal, date, URL or
+          DOI) confirmed against multiple independent bibliographic and search
+          records, but the underlying document has not yet been retrieved and
+          read in full. Entries marked <strong>placeholder</strong> record the
+          best candidate source located so far. Nothing in this bibliography is
+          yet marked <strong>verified</strong>: no claim, quotation or figure
+          should be treated as confirmed until a researcher has read the
+          underlying material directly — see the methodology above.
         </p>
       </Callout>
 

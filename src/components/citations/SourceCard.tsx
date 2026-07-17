@@ -32,7 +32,7 @@ export function SourceCard({ source }: SourceCardProps) {
   const byline = [source.author, source.organisation]
     .filter(Boolean)
     .join(", ");
-  const verified = source.verificationStatus === "verified";
+  const status = source.verificationStatus;
 
   return (
     <article
@@ -59,10 +59,16 @@ export function SourceCard({ source }: SourceCardProps) {
         <span
           className={cn(
             "inline-flex shrink-0 items-center rounded-full px-2.5 py-1 text-xs font-semibold",
-            verified ? "bg-navy/10 text-navy" : "bg-red-deep/10 text-red-deep",
+            status === "verified" && "bg-navy/10 text-navy",
+            status === "corroborated" && "border border-navy/30 text-navy",
+            status === "placeholder" && "bg-red-deep/10 text-red-deep",
           )}
         >
-          {verified ? "Verified" : "Placeholder — requires verification"}
+          {status === "verified"
+            ? "Verified"
+            : status === "corroborated"
+              ? "Corroborated — citation confirmed, text unchecked"
+              : "Placeholder — requires verification"}
         </span>
       </div>
 
