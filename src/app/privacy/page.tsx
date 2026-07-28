@@ -51,8 +51,8 @@ export default function PrivacyPage() {
         <h2>What is collected when analytics is enabled</h2>
         <p>
           When enabled, this site uses a privacy-conscious, cookieless analytics
-          provider to record aggregate page views and referrers: which pages
-          are visited, roughly how often, and which sites sent the visitor here.
+          provider to record aggregate page views and referrers: which pages are
+          visited, roughly how often, and which sites sent the visitor here.
           That is the extent of it.
         </p>
 

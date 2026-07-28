@@ -444,9 +444,8 @@ export default function HomePage() {
           />
           <InteropVisual systems={interopSystems} />
           <p className="mt-6 text-xs text-ink-faint">
-            Markers and diagrams throughout this site are neutral and
-            fictional: they do not represent real players, teams or match
-            footage.
+            Markers and diagrams throughout this site are neutral and fictional:
+            they do not represent real players, teams or match footage.
           </p>
         </div>
       </section>
