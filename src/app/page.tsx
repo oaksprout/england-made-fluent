@@ -151,7 +151,7 @@ export default function HomePage() {
             id="structural-advantage-heading"
             kicker="England's inheritance"
             title="A structural advantage most nations do not have"
-            lede="England may possess more concentrated, week-to-week tactical experience than almost any national squad in world football — and still lack a shared method for combining it."
+            lede="England may possess more concentrated, week-to-week tactical experience than almost any national squad in world football, and still lack a shared method for combining it."
           />
           <ol className="grid gap-x-12 border-b border-line sm:grid-cols-2">
             {premierLeagueExposures.map((statement, index) => (
@@ -189,7 +189,7 @@ export default function HomePage() {
               <p>
                 This site does not claim the Premier League automatically
                 benefits England. Diversity is only an advantage when it is
-                supported by interoperability — the shared language, recognition
+                supported by interoperability: the shared language, recognition
                 and responses that turn varied experience into collective
                 understanding rather than confusion.
               </p>
@@ -244,9 +244,9 @@ export default function HomePage() {
             ))}
           </div>
           <p className="mt-8 max-w-2xl text-ink-soft leading-relaxed">
-            The purpose here is not to rank countries. It is to show that
-            nations succeed when they align their systems with their own actual
-            structural strengths, not when they copy whichever style happens to
+            The purpose here is not to rank countries but to show that nations
+            succeed when they align their systems with their own actual
+            structural strengths rather than copying whichever style happens to
             be fashionable.
           </p>
           <div className="mt-10">
@@ -267,7 +267,7 @@ export default function HomePage() {
             id="comparative-timeline-heading"
             kicker="Seventy years of evidence"
             title="This has happened before, more than once"
-            lede="National footballing systems are built, revised and sometimes left to stagnate — years before the tournament result that gets remembered."
+            lede="National footballing systems are built, revised and sometimes left to stagnate years before the tournament result that gets remembered."
           />
           <div className="space-y-6">
             {teaserTimelineEntries.map((entry) => (
@@ -324,7 +324,7 @@ export default function HomePage() {
                 Improvisation around available players
               </h3>
               <p className="mt-2 text-sm leading-relaxed text-ink-faint">
-                No shared method at all — each squad and manager starts again
+                No shared method at all: each squad and manager starts again
                 from first principles, hoping talent and togetherness are enough
                 to invent a system in a fortnight.
               </p>
@@ -362,9 +362,8 @@ export default function HomePage() {
             {site.thesis.identityDefinition}
           </blockquote>
           <p className="mt-4 max-w-2xl text-ink-soft leading-relaxed">
-            This is not vague flexibility. It requires repeated training, a
-            common language, clear reference points and defined
-            responsibilities.
+            This is demanding, specific work: repeated training, a common
+            language, clear reference points and defined responsibilities.
           </p>
 
           <ol className="mt-10 grid gap-6 sm:grid-cols-2">
@@ -445,8 +444,9 @@ export default function HomePage() {
           />
           <InteropVisual systems={interopSystems} />
           <p className="mt-6 text-xs text-ink-faint">
-            Markers and diagrams throughout this site are neutral and fictional
-            — they do not represent real players, teams or match footage.
+            Markers and diagrams throughout this site are neutral and
+            fictional: they do not represent real players, teams or match
+            footage.
           </p>
         </div>
       </section>
@@ -463,7 +463,7 @@ export default function HomePage() {
             id="game-states-heading"
             kicker="Shared recognition, shared response"
             title="Twelve recurring match situations, three in focus"
-            lede="Structured adaptability means the squad shares a rehearsed, plural menu of responses to situations that recur in almost every match — not one prescribed answer."
+            lede="Structured adaptability means the squad shares a rehearsed, plural menu of responses to situations that recur in almost every match, rather than one prescribed answer."
           />
           <div className="space-y-14">
             {featuredGameStates.map((module) => (
@@ -498,14 +498,14 @@ export default function HomePage() {
             id="england-dna-heading"
             kicker="A fair examination"
             title="Did England DNA standardise the right things?"
-            lede="England DNA was a serious attempt to solve a real problem. This site does not assume it failed — it asks, in good faith, what evidence exists either way."
+            lede="England DNA was a serious attempt to solve a real problem. This site asks, in good faith, what evidence exists of its effect either way."
           />
           <p className="leading-relaxed text-ink-soft">
             The FA&rsquo;s framework set out real ambitions for a shared
             national approach from 2014 onward. What has not been publicly
             established is whether it produced recognisable, transferable
-            senior-team behaviour a decade on — and whether it standardised
-            language and recognition, or drifted toward prescribing one style.
+            senior-team behaviour a decade on, and whether it standardised
+            language and recognition or drifted toward prescribing one style.
           </p>
           <Link
             href="/england-dna/"
@@ -591,7 +591,7 @@ export default function HomePage() {
             id="open-letter-heading"
             kicker="Addressed to the FA"
             title="An open letter, not a petition"
-            lede="We are asking the FA to examine one specific question honestly and publish what it finds — not demanding anyone's removal, and not assuming the answer in advance."
+            lede="We are asking the FA to examine one specific question honestly and publish what it finds. Nobody's removal is demanded, and no answer is assumed in advance."
           />
           <LetterActions
             showPrint={false}

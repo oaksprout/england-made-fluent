@@ -18,16 +18,16 @@ export const nations: Nation[] = [
     headline:
       "A shared positional and technical vocabulary, run through youth and senior football alike, converted individual technical quality into sustained control of matches.",
     modelSummary:
-      "Spain's 2008-2012 team is the most commonly cited example of a national model translating cleanly from club to country. The underlying claim is narrower than 'Spain plays beautiful football': a critical mass of Spanish internationals had learned closely related positional concepts — how to occupy space between opposition lines, when to rotate, how to retain the ball under pressure — inside their club academies, above all Barcelona's. That shared vocabulary meant the national team spent less time building common understanding from scratch and more time applying it. It is also a model with a long, uneven prehistory: the same country spent decades before 2008 being eliminated early from tournaments with talented individual players who did not obviously share a footballing language.",
+      "Spain's 2008-2012 team is the most commonly cited example of a national model translating cleanly from club to country. The underlying claim is narrower than 'Spain plays beautiful football': a critical mass of Spanish internationals had learned closely related positional concepts (how to occupy space between opposition lines, when to rotate, how to retain the ball under pressure) inside their club academies, above all Barcelona's. That shared vocabulary meant the national team spent less time building common understanding from scratch and more time applying it. It is also a model with a long, uneven prehistory: the same country spent decades before 2008 being eliminated early from tournaments with talented individual players who did not obviously share a footballing language.",
     strengths: [
       "A shared set of positional concepts (occupying half-spaces, structured rotations, patient circulation) taught consistently enough across leading academies that many Spanish internationals arrived at the national team already speaking a common tactical language",
       "High technical and spatial fluency: comfort receiving and playing under pressure in tight areas, which underpinned the team's control of possession",
       "Continuity between youth national teams and the senior side, so players progressing through Spanish youth football were not asked to relearn a new footballing language at each level",
-      "The model proved resilient to some personnel change — Spain sustained a recognisable style of control across the 2008, 2010 and 2012 tournament wins with a changing cast of players",
+      "The model proved resilient to some personnel change: Spain sustained a recognisable style of control across the 2008, 2010 and 2012 tournament wins with a changing cast of players",
       "A federation and leading-club coaching culture that reinforced the same core principles rather than pulling in different directions",
     ],
     caveats: [
-      "Spain endured decades of underachievement before 2008 despite consistently producing technically excellent individual players — shared style alone did not previously guarantee tournament success, which complicates any simple 'model causes results' story",
+      "Spain endured decades of underachievement before 2008 despite consistently producing technically excellent individual players. Shared style alone did not previously guarantee tournament success, which complicates any simple 'model causes results' story",
       "The model is closely associated with one dominant club academy (Barcelona) at its peak; how much of the effect belongs to a broader Spanish coaching culture versus one especially influential institution is genuinely disputed",
       "By the 2023-24 cycle Spain's approach had visibly evolved towards a faster, more direct, more youthful side than the control-possession teams of 2008-2012, which is itself evidence that 'the Spanish model' is not one fixed style but something that has changed across eras",
     ],
@@ -59,7 +59,7 @@ export const nations: Nation[] = [
         summary:
           "Spain regularly produced technically gifted players and strong domestic football but was eliminated early from major tournaments across this period, feeding a narrative that the team lacked mental toughness or cohesion.",
         interpretation:
-          "In hindsight, this era is often read as evidence that talent and technical quality are not sufficient on their own without a shared collective approach — though contemporaries more often blamed temperament than tactical structure.",
+          "In hindsight, this era is often read as evidence that talent and technical quality are not sufficient on their own without a shared collective approach, though contemporaries more often blamed temperament than tactical structure.",
         contested: true,
         sourceIds: ["spain-la-masia-context", "tournament-possession-data"],
       },
@@ -91,7 +91,7 @@ export const nations: Nation[] = [
         summary:
           "Spain won Euro 2024 with a younger, more directly attacking team than the 2008-2012 sides, retaining some shared positional principles while playing a visibly different style overall.",
         interpretation:
-          "Supports treating 'the Spanish model' as something that evolves across coaching generations rather than a fixed style — relevant to this site's argument that England should not import a static template from any one country.",
+          "Supports treating 'the Spanish model' as something that evolves across coaching generations rather than a fixed style, which is relevant to this site's argument that England should not import a static template from any one country.",
         sourceIds: ["rfef-development-method", "tournament-possession-data"],
       },
     ],
@@ -110,12 +110,12 @@ export const nations: Nation[] = [
     headline:
       "Tactical adaptability and competitive cohesion, not one fixed system, repeatedly allowed Argentina to reshape a team around exceptional individual players.",
     modelSummary:
-      "Argentina's recent history offers a contrasting model to Spain's: rather than one consistent positional style, Argentine national teams have often been built and rebuilt around a small number of exceptional individuals, with the collective structure adjusted to protect and maximise them. The 2021-2022 Scaloni-era team is the clearest recent example — a side that changed its defensive structure and pressing intensity between matches while maintaining a settled emotional and competitive core. The underlying argument for England is not 'copy Argentina's system' (there isn't a single one to copy) but that tactical flexibility itself can be a trained, deliberate team capability rather than an improvised response to circumstances.",
+      "Argentina's recent history offers a contrasting model to Spain's: rather than one consistent positional style, Argentine national teams have often been built and rebuilt around a small number of exceptional individuals, with the collective structure adjusted to protect and maximise them. The 2021-2022 Scaloni-era team is the clearest recent example: a side that changed its defensive structure and pressing intensity between matches while maintaining a settled emotional and competitive core. The underlying argument for England is not 'copy Argentina's system' (there isn't a single one to copy) but that tactical flexibility itself can be a trained, deliberate team capability rather than an improvised response to circumstances.",
     strengths: [
       "Demonstrated tactical adaptability: the same squad has shown it can play with different defensive structures and pressing intensities between matches and even within a tournament",
       "Strong emotional and competitive cohesion, frequently cited by players and coaches as a deliberate focus of squad management rather than a by-product of results",
       "A track record of successfully reshaping the team's structure and responsibilities around an exceptional individual player without the rest of the side losing coherence",
-      "Demonstrated understanding of tournament game-states — managing leads, game tempo and substitutions across a knockout tournament rather than only in isolated matches",
+      "Demonstrated understanding of tournament game-states: managing leads, game tempo and substitutions across a knockout tournament rather than only in isolated matches",
       "No requirement for a single fixed positional model to succeed, which is evidence against the idea that only one type of national footballing identity can produce results",
     ],
     caveats: [
@@ -125,7 +125,7 @@ export const nations: Nation[] = [
     ],
     dimensions: {
       leagueStructure:
-        "Argentina's senior national-team core in this period was drawn overwhelmingly from European leagues, particularly Spain's La Liga and Italy's Serie A, rather than the domestic Argentine league — a significant difference from a country like England whose core plays in one domestic league.",
+        "Argentina's senior national-team core in this period was drawn overwhelmingly from European leagues, particularly Spain's La Liga and Italy's Serie A, rather than the domestic Argentine league, a significant difference from a country like England whose core plays in one domestic league.",
       federationPolicy:
         "AFA's recent coaching appointments (Scaloni and his staff) reflect continuity of personnel and philosophy across a multi-year cycle rather than the frequent managerial change seen in some earlier periods.",
       youthDevelopment:
@@ -141,7 +141,7 @@ export const nations: Nation[] = [
       tournamentOutcomes:
         "World Cup winners 1978 and 1986; Copa América champions 2021; World Cup champions 2022; finalists at the 2014 World Cup.",
       interpretation:
-        "The Argentine case is read here as evidence that a settled collective approach can be built around flexibility and cohesion rather than one tactical identity — but this reading leans heavily on one recent, individually-inflected success and should not be treated as a fully separate confirmation from the Spanish case.",
+        "The Argentine case is read here as evidence that a settled collective approach can be built around flexibility and cohesion rather than one tactical identity. But this reading leans heavily on one recent, individually-inflected success and should not be treated as a fully separate confirmation from the Spanish case.",
     },
     eras: [
       {
@@ -187,7 +187,7 @@ export const nations: Nation[] = [
     headline:
       "A deep and diverse production system generates athletic and technical range broad enough to win with different tactical identities in different eras, without ever settling on one aesthetic.",
     modelSummary:
-      "France's case is less about a shared tactical philosophy than about scale and variety of production. The INF Clairefontaine national academy system, alongside a dense network of club academies particularly strong in the Paris region and overseas territories, has produced an unusually large pool of athletically and technically excellent players across multiple generations. That depth has allowed French teams to win with genuinely different approaches — the more collectively fluid 1998 side and the more individually explosive, transition-focused 2018 side are both credible World Cup winners without sharing an obvious tactical identity. The recurring tension in French football culture, sharpened after difficult tournaments such as 2010, is between individual expression and collective discipline — precisely the tension England's own debate circles around.",
+      "France's case is less about a shared tactical philosophy than about scale and variety of production. The INF Clairefontaine national academy system, alongside a dense network of club academies particularly strong in the Paris region and overseas territories, has produced an unusually large pool of athletically and technically excellent players across multiple generations. That depth has allowed French teams to win with genuinely different approaches: the more collectively fluid 1998 side and the more individually explosive, transition-focused 2018 side are both credible World Cup winners without sharing an obvious tactical identity. The recurring tension in French football culture, sharpened after difficult tournaments such as 2010, is between individual expression and collective discipline, precisely the tension England's own debate circles around.",
     strengths: [
       "An unusually deep and geographically wide production system, combining the national INF Clairefontaine network with strong club academies, generating a large pool of elite-level talent across generations",
       "Athletic and technical range broad enough to field very different types of players in the same positions across different eras",
@@ -218,7 +218,7 @@ export const nations: Nation[] = [
       tournamentOutcomes:
         "World Cup winners 1998, Euro 2000 winners, World Cup finalists 2006, group-stage elimination amid player unrest 2010, World Cup winners 2018, World Cup finalists 2022.",
       interpretation:
-        "The French case supports the idea that different tactical identities can each be a winning identity given sufficient talent depth, but cautions that a wide talent pool does not by itself guarantee collective cohesion — cohesion still had to be separately managed, and was not always managed well.",
+        "The French case supports the idea that different tactical identities can each be a winning identity given sufficient talent depth, but cautions that a wide talent pool does not by itself guarantee collective cohesion: cohesion still had to be separately managed, and was not always managed well.",
     },
     eras: [
       {
@@ -270,13 +270,13 @@ export const nations: Nation[] = [
     shortLabel: "Germany",
     accent: "#6E6355",
     headline:
-      "A federation-led reform triggered by public failure rebuilt youth development and coach education around shared principles, without requiring one tactical system — and the reform itself later needed renewing.",
+      "A federation-led reform triggered by public failure rebuilt youth development and coach education around shared principles, without requiring one tactical system, and the reform itself later needed renewing.",
     modelSummary:
       "Germany's post-2000 reform is probably the most direct precedent for what this site proposes: a federation response to a specific, publicly visible tournament failure (early elimination at Euro 2000) that rebuilt the youth development and coach education pipeline over roughly a decade. Crucially, the DFB's reform did not mandate one tactical system; it invested in talent centres, coach qualifications and closer club-federation coordination, and shared principles fed into a senior team that itself changed considerably in approach between the more controlled 2014 World Cup-winning side and later, less settled squads. The reform's later years also carry an important caution for England: the same structure that produced 2014's success was later criticised as having become outdated, showing that institutional reform is not a one-off fix but something that itself needs periodic renewal.",
     strengths: [
       "A clear, publicly documented example of federation-led institutional reform triggered directly by tournament failure rather than incremental drift",
       "Sustained investment in both youth academy infrastructure (regional talent centres) and coach education, treated as linked rather than separate problems",
-      "Shared developmental principles across age groups without enforcing a single senior tactical system — the 2014 team's approach differed from earlier and later German sides",
+      "Shared developmental principles across age groups without enforcing a single senior tactical system: the 2014 team's approach differed from earlier and later German sides",
       "Demonstrated capacity to convert reform into a major tournament win (2014 World Cup) roughly fourteen years after the reform began, evidence that this kind of change plausibly takes a sustained multi-year commitment rather than a single cycle",
       "An instructive later-stage lesson: German commentators and officials themselves later argued the reform structure had become outdated, which is valuable evidence that institutional reform requires ongoing renewal rather than being treated as solved",
     ],
@@ -303,7 +303,7 @@ export const nations: Nation[] = [
       tournamentOutcomes:
         "Early exit at Euro 2000; steady improvement through the 2000s (World Cup semi-final 2006 and 2010, Euro final 2008); World Cup winners 2014; group-stage exits at the 2018 and 2022 World Cups.",
       interpretation:
-        "Germany's case is read here as the strongest available precedent for deliberate, federation-led institutional reform producing a measurable tournament outcome — but the post-2014 stagnation is equally important evidence that no reform is self-sustaining.",
+        "Germany's case is read here as the strongest available precedent for deliberate, federation-led institutional reform producing a measurable tournament outcome. But the post-2014 stagnation is equally important evidence that no reform is self-sustaining.",
     },
     eras: [
       {
@@ -347,7 +347,7 @@ export const nations: Nation[] = [
     headline:
       "A strong tactical-education culture, centred on defensive and game-state literacy, has let Italy win major tournaments through markedly different systems across different eras.",
     modelSummary:
-      "Italy's case is instructive precisely because its tactical identity has changed so much across winning eras while a common thread of coach education and game-state intelligence has remained. The organised defensive structures associated with catenaccio in the 1960s, the zonal pressing football associated with Arrigo Sacchi's Milan in the late 1980s, and the pragmatic, situationally flexible sides that won the 2006 World Cup and Euro 2020 are tactically distinct from one another. What is argued to persist across these eras is a strong coach-education culture, centred on the national coaching centre at Coverciano, that produces coaches unusually literate in reading match situations and adjusting defensive structure to the game state — a capability closer to this site's proposed 'game states' than to any single formation.",
+      "Italy's case is instructive precisely because its tactical identity has changed so much across winning eras while a common thread of coach education and game-state intelligence has remained. The organised defensive structures associated with catenaccio in the 1960s, the zonal pressing football associated with Arrigo Sacchi's Milan in the late 1980s, and the pragmatic, situationally flexible sides that won the 2006 World Cup and Euro 2020 are tactically distinct from one another. What is argued to persist across these eras is a strong coach-education culture, centred on the national coaching centre at Coverciano, that produces coaches unusually literate in reading match situations and adjusting defensive structure to the game state, a capability closer to this site's proposed 'game states' than to any single formation.",
     strengths: [
       "A well-regarded national coach education system (Coverciano) with a long-standing emphasis on tactical literacy and defensive organisation",
       "Demonstrated ability to win major tournaments using clearly different tactical systems in different eras, evidence that tactical education can outlast any specific system",
@@ -378,7 +378,7 @@ export const nations: Nation[] = [
       tournamentOutcomes:
         "World Cup winners 1934, 1938, 1982, 2006; World Cup finalists 1970, 1994; European Championship winners 1968, 2020; failed to qualify for the 2018 and 2022 World Cups.",
       interpretation:
-        "Read here as evidence that a coach-education culture, rather than a fixed tactical system, can be the more durable national asset — but the qualification failures show that coaching culture alone did not insulate Italy from a genuine period of weaker outcomes.",
+        "Read here as evidence that a coach-education culture, rather than a fixed tactical system, can be the more durable national asset. But the qualification failures show that coaching culture alone did not insulate Italy from a genuine period of weaker outcomes.",
     },
     eras: [
       {
@@ -430,7 +430,7 @@ export const nations: Nation[] = [
     headline:
       "An exceptional individual-talent production system has succeeded most clearly when expressive attacking tradition and collective structure were reconciled, not when either dominated alone.",
     modelSummary:
-      "Brazil is often invoked in English football discourse as shorthand for natural flair, but the more precise historical picture is of a recurring internal tension between an expressive attacking tradition and more structured, collectively organised approaches, with the country's most successful teams typically reconciling rather than choosing between the two. The 1970 World Cup-winning side, frequently cited as the purest expression of Brazilian flair, was also a tactically well-organised team with clear defensive responsibilities. Brazil's development system continues to produce individual attacking talent at a scale few countries can match, but tournament outcomes since 2002 — including the widely-discussed 7-1 defeat to Germany in 2014 — show that talent production alone has not consistently converted into collective tournament success.",
+      "Brazil is often invoked in English football discourse as shorthand for natural flair, but the more precise historical picture is of a recurring internal tension between an expressive attacking tradition and more structured, collectively organised approaches, with the country's most successful teams typically reconciling rather than choosing between the two. The 1970 World Cup-winning side, frequently cited as the purest expression of Brazilian flair, was also a tactically well-organised team with clear defensive responsibilities. Brazil's development system continues to produce individual attacking talent at a scale few countries can match, but tournament outcomes since 2002, including the widely-discussed 7-1 defeat to Germany in 2014, show that talent production alone has not consistently converted into collective tournament success.",
     strengths: [
       "An exceptional scale of individual technical talent production, sustained across generations and widely regarded as a genuine national developmental strength",
       "A strong attacking and expressive footballing tradition ('jogo bonito') that has shaped global perceptions of attractive attacking play",
@@ -440,7 +440,7 @@ export const nations: Nation[] = [
     ],
     caveats: [
       "The popular 'jogo bonito' framing understates the tactical organisation present in Brazil's most successful sides, including 1970, and risks treating flair and structure as opposites rather than as elements that have to be reconciled",
-      "The 7-1 defeat to Germany at the 2014 World Cup, played in Brazil, is widely cited as evidence that individual talent production had, at that point, not been matched by collective tactical organisation at senior level — though the specific causes of that result are still debated",
+      "The 7-1 defeat to Germany at the 2014 World Cup, played in Brazil, is widely cited as evidence that individual talent production had, at that point, not been matched by collective tactical organisation at senior level, though the specific causes of that result are still debated",
       "Brazil's domestic league development pathway differs importantly from Europe's in that many of its most talented young players move to European clubs relatively early, meaning senior internationals' footballing education is often completed abroad rather than domestically",
     ],
     dimensions: {
@@ -461,7 +461,7 @@ export const nations: Nation[] = [
       tournamentOutcomes:
         "World Cup winners 1958, 1962, 1970, 1994, 2002; World Cup semi-finalists on home soil in 2014, losing 7-1 to Germany.",
       interpretation:
-        "Read here as evidence that individual talent production, however exceptional, is not by itself equivalent to collective tactical fluency — Brazil's own most successful eras combined talent with real organisation, and its most painful recent result is widely read as a collective, not an individual, failure.",
+        "Read here as evidence that individual talent production, however exceptional, is not by itself equivalent to collective tactical fluency: Brazil's own most successful eras combined talent with real organisation, and its most painful recent result is widely read as a collective, not an individual, failure.",
     },
     eras: [
       {
@@ -493,7 +493,7 @@ export const nations: Nation[] = [
         summary:
           "Since the 2006 World Cup, Brazil has continued to produce exceptional individual talent but has not matched its earlier record of collective tournament success, most visibly in the 2014 semi-final defeat to Germany.",
         interpretation:
-          "Widely read as evidence that individual talent production and collective tactical organisation are separate variables that both need to be present — a central argument of this site's broader case.",
+          "Widely read as evidence that individual talent production and collective tactical organisation are separate variables that both need to be present, a central argument of this site's broader case.",
         sourceIds: ["brazil-development-structures"],
       },
     ],
@@ -506,9 +506,9 @@ export const nations: Nation[] = [
     shortLabel: "Netherlands",
     accent: "#C1642F",
     headline:
-      "A coherent, globally influential footballing philosophy shaped how much of the world thinks about tactics — but producing an admired footballing idea has not, on its own, reliably won the Netherlands a major tournament.",
+      "A coherent, globally influential footballing philosophy shaped how much of the world thinks about tactics. Producing an admired footballing idea has not, on its own, reliably won the Netherlands a major tournament.",
     modelSummary:
-      "The Netherlands is arguably the clearest case study in the difference between tactical influence and tournament success. Total Football, developed at Ajax and the national team under Rinus Michels and embodied by Johan Cruyff in the late 1960s and 1970s, is one of the most influential tactical ideas in football history, shaping coaching thought across Europe and directly influencing Spain's later possession-based model via Cruyff's time at Barcelona. Yet the Netherlands lost consecutive World Cup finals in 1974 and 1978 and has never won the tournament. The KNVB's coach education continues to promote a coherent, clearly articulated footballing philosophy, and this coherence is a genuine institutional strength — but the Dutch case is a direct caution against assuming that having a clear, admired football identity is the same thing as being well-equipped to win knockout tournaments.",
+      "The Netherlands is arguably the clearest case study in the difference between tactical influence and tournament success. Total Football, developed at Ajax and the national team under Rinus Michels and embodied by Johan Cruyff in the late 1960s and 1970s, is one of the most influential tactical ideas in football history, shaping coaching thought across Europe and directly influencing Spain's later possession-based model via Cruyff's time at Barcelona. Yet the Netherlands lost consecutive World Cup finals in 1974 and 1978 and has never won the tournament. The KNVB's coach education continues to promote a coherent, clearly articulated footballing philosophy, and this coherence is a genuine institutional strength. But the Dutch case is a direct caution against assuming that having a clear, admired football identity is the same thing as being well-equipped to win knockout tournaments.",
     strengths: [
       "Development and articulation of Total Football, one of the most influential tactical ideas in the sport's history, with effects still visible in modern positional play",
       "A federation coach-education system (KNVB) that maintains an unusually coherent and clearly articulated footballing philosophy across age groups",
@@ -517,9 +517,9 @@ export const nations: Nation[] = [
       "Demonstrated willingness in some eras to depart from the 'total football' identity tactically when circumstances demanded it, including more direct, pragmatic approaches in later tournaments",
     ],
     caveats: [
-      "Despite its tactical influence, the Netherlands has never won a World Cup, including defeats in the 1974 and 1978 finals — the clearest evidence on this site that producing an admired footballing idea is not equivalent to winning tournaments",
+      "Despite its tactical influence, the Netherlands has never won a World Cup, including defeats in the 1974 and 1978 finals: the clearest evidence on this site that producing an admired footballing idea is not equivalent to winning tournaments",
       "The 'total football' identity is sometimes presented as a fixed, permanent Dutch national character; in practice Dutch teams have varied tactically across eras, including notably pragmatic and physical approaches in some more recent tournament campaigns",
-      "Some critics of Dutch football culture have argued that attachment to a specific philosophical identity has, at times, constrained pragmatic in-tournament decision-making — a genuinely contested claim rather than a settled one",
+      "Some critics of Dutch football culture have argued that attachment to a specific philosophical identity has, at times, constrained pragmatic in-tournament decision-making, a genuinely contested claim rather than a settled one",
     ],
     dimensions: {
       leagueStructure:
@@ -583,13 +583,13 @@ export const nations: Nation[] = [
     headline:
       "Institutional continuity and an efficient, midfield-centred technical culture have let a small footballing nation repeatedly punch above its playing-population size.",
     modelSummary:
-      "Croatia is the clearest case study on this site of what continuity and efficient use of a limited talent pool can achieve without the scale of production available to England, France or Brazil. Since its first tournament appearances as an independent nation in the 1990s, Croatia has consistently produced technically excellent central-midfield players and sustained a recognisable footballing identity across multiple tournament cycles, reaching the 1998 World Cup semi-final, the 2018 World Cup final and the 2022 semi-final with different generations of players. The lesson for England is not about scale — England's playing population and football economy dwarf Croatia's — but about the value of institutional coherence: a relatively small, consistent coaching and development culture appears to have generated more collective tournament performance per unit of individual talent than several much larger footballing nations.",
+      "Croatia is the clearest case study on this site of what continuity and efficient use of a limited talent pool can achieve without the scale of production available to England, France or Brazil. Since its first tournament appearances as an independent nation in the 1990s, Croatia has consistently produced technically excellent central-midfield players and sustained a recognisable footballing identity across multiple tournament cycles, reaching the 1998 World Cup semi-final, the 2018 World Cup final and the 2022 semi-final with different generations of players. The lesson for England is not about scale (England's playing population and football economy dwarf Croatia's) but about the value of institutional coherence: a relatively small, consistent coaching and development culture appears to have generated more collective tournament performance per unit of individual talent than several much larger footballing nations.",
     strengths: [
       "Institutional continuity in football development since independence in the early 1990s, sustained across multiple coaching generations",
       "Efficient use of a comparatively small playing population, converting a modest talent pool into repeated deep tournament runs",
       "A strong and recognisable technical and passing culture concentrated in central-midfield positions, producing a disproportionate number of internationally elite midfielders relative to population size",
       "Institutional coherence between domestic development and the senior national team, with a settled sense of how Croatian teams are expected to play",
-      "Demonstrated resilience across generational transitions — reaching tournament semi-finals or finals in 1998, 2018 and 2022 with substantially different playing personnel each time",
+      "Demonstrated resilience across generational transitions: reaching tournament semi-finals or finals in 1998, 2018 and 2022 with substantially different playing personnel each time",
     ],
     caveats: [
       "Croatia's specific tactical and developmental mechanisms are less publicly documented in accessible English-language material than those of the Spanish, German or French federations, and firmer claims require locating and verifying Croatian-language or specialist sources",
@@ -612,7 +612,7 @@ export const nations: Nation[] = [
       historicalPeriod:
         "Spans Croatia's first tournament appearances as an independent nation in the mid-1990s through to the 2018 and 2022 World Cup campaigns.",
       tournamentOutcomes:
-        "World Cup semi-finalists 1998; World Cup finalists 2018; World Cup semi-finalists (third place) 2022 — a strong record relative to the country's playing population.",
+        "World Cup semi-finalists 1998; World Cup finalists 2018; World Cup semi-finalists (third place) 2022. A strong record relative to the country's playing population.",
       interpretation:
         "Read here primarily as a lesson about institutional continuity and efficient talent use rather than as a scalable template; the relevant transferable idea for England is coherence over time, not any specific Croatian tactical detail.",
     },

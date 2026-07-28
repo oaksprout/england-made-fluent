@@ -51,7 +51,7 @@ export default function PrivacyPage() {
         <h2>What is collected when analytics is enabled</h2>
         <p>
           When enabled, this site uses a privacy-conscious, cookieless analytics
-          provider to record aggregate page views and referrers — which pages
+          provider to record aggregate page views and referrers: which pages
           are visited, roughly how often, and which sites sent the visitor here.
           That is the extent of it.
         </p>
@@ -77,7 +77,7 @@ export default function PrivacyPage() {
         <p>
           Analytics is disabled by default on this project. This page exists so
           the policy is stated plainly regardless of whether a given deployment
-          has switched it on — visitors should not have to guess what would
+          has switched it on. Visitors should not have to guess what would
           happen if it were enabled.
         </p>
 

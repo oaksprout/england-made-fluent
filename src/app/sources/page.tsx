@@ -51,7 +51,7 @@ export default function SourcesPage() {
           best candidate source located so far. Nothing in this bibliography is
           yet marked <strong>verified</strong>: no claim, quotation or figure
           should be treated as confirmed until a researcher has read the
-          underlying material directly — see the methodology above.
+          underlying material directly. See the methodology above.
         </p>
       </Callout>
 

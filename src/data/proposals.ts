@@ -19,9 +19,9 @@ export const proposals: Proposal[] = [
     owner:
       "FA technical directorate, with an independently appointed review panel",
     objection:
-      "England already has a national framework — this proposal implies duplicating work that has been done since 2014.",
+      "England already has a national framework, and this proposal implies duplicating work that has been done since 2014.",
     response:
-      "The existence of England DNA is not in question; what has not been publicly demonstrated is evidence of its consistent effect on senior-team collective behaviour. An audit does not assume the framework has failed — it simply replaces assumption, in either direction, with evidence.",
+      "The existence of England DNA is not in question; what has not been publicly demonstrated is evidence of its consistent effect on senior-team collective behaviour. An audit assumes nothing about the framework in either direction. It simply replaces assumption with evidence.",
     successMeasure:
       "A published, methodologically transparent audit report identifying specific, observable instances where England DNA principles are and are not visible in senior-team play, distinguishing documented evidence from analytical judgement.",
     unintendedRisk:
@@ -78,7 +78,7 @@ export const proposals: Proposal[] = [
     objection:
       "A fixed FA terminology risks becoming a new rigid orthodoxy, similar to the criticism sometimes made of England DNA itself.",
     response:
-      "This is the central risk this proposal has to manage honestly. The distinction that matters is between standardising language (what we call a concept) and standardising tactics (what system we play) — the former is proposed here, not the latter, and the glossary should be reviewed periodically to prevent it calcifying.",
+      "This is the central risk this proposal has to manage honestly. The distinction that matters is between standardising language (what we call a concept) and standardising tactics (what system we play). Only the former is proposed here, and the glossary should be reviewed periodically to prevent it calcifying.",
     successMeasure:
       "Independent verification, through player and coach surveys, that a majority of the senior and under-21 pool can consistently describe the same core game states using the same shared terms.",
     unintendedRisk:
@@ -96,7 +96,7 @@ export const proposals: Proposal[] = [
     objection:
       "International youth teams have very limited contact time compared with club academies, making it unrealistic to meaningfully train specific game states at national level.",
     response:
-      "This is true and is a genuine constraint, which is why the proposal is about consistent, repeated brief exposure across every age-group camp over years, not a single intensive programme — cumulative brief exposure across a football career can build recognition even with limited annual contact time.",
+      "The constraint is real, which is why the proposal is about consistent, repeated brief exposure across every age-group camp over years rather than a single intensive programme. Cumulative brief exposure across a football career can build recognition even with limited annual contact time.",
     successMeasure:
       "Coaches at each age-group level can confirm that players progressing through the England pathway recognise and can describe the same set of game states and response options as those taught at the level below.",
     unintendedRisk:
@@ -133,7 +133,7 @@ export const proposals: Proposal[] = [
     objection:
       "Formal measurement of 'framework familiarity' risks reducing a complex developmental process to a simplistic pass/fail metric.",
     response:
-      "The measurement proposed here is diagnostic, not evaluative of the player — its purpose is to assess the pathway's continuity, not to grade individual players, and results should be used to improve age-group coaching consistency rather than to judge players against each other.",
+      "The measurement proposed here is diagnostic. Its purpose is to assess the pathway's continuity, not to grade individual players, and results should be used to improve age-group coaching consistency rather than to judge players against each other.",
     successMeasure:
       "A declining trend, tracked over several cohorts, in the amount of re-teaching coaches report needing when players move up an England age group.",
     unintendedRisk:
@@ -152,7 +152,7 @@ export const proposals: Proposal[] = [
     objection:
       "Coaching appointments should be made on merit and specific role fit, not to satisfy a diversity requirement around footballing background.",
     response:
-      "These are not in tension: coaches with experience across different traditions can be, and should be, selected because that breadth of experience is itself professionally valuable for exactly the coordination problem this site describes — it is a merit criterion, not a quota.",
+      "These are not in tension: coaches with experience across different traditions can be, and should be, selected because that breadth of experience is itself professionally valuable for exactly the coordination problem this site describes: a merit criterion rather than a quota.",
     successMeasure:
       "The England technical staff includes coaches with substantive first-team or academy coaching experience outside English football, contributing directly and visibly to framework and curriculum decisions.",
     unintendedRisk:
@@ -166,7 +166,7 @@ export const proposals: Proposal[] = [
     purpose:
       "Ensure the framework is shaped by regular, structured input from the players and club coaches who actually have to use it, rather than being designed and communicated in one direction from the FA.",
     implementation:
-      "Establish a recurring, structured consultation process — for example scheduled sessions at each international window and an annual club-coach forum — through which players and club coaching staff can feed back on the practical usefulness of England's shared terminology and game-state training.",
+      "Establish a recurring, structured consultation process, for example scheduled sessions at each international window and an annual club-coach forum, through which players and club coaching staff can feed back on the practical usefulness of England's shared terminology and game-state training.",
     owner: "St George's Park coaching staff with independent evaluators",
     objection:
       "Players and club coaches have limited time and may not want to spend it on FA framework consultation rather than football itself.",
@@ -175,7 +175,7 @@ export const proposals: Proposal[] = [
     successMeasure:
       "Documented instances of the framework or its terminology being revised in response to specific player or club-coach feedback, not just evidence that consultation sessions took place.",
     unintendedRisk:
-      "A feedback process that is not genuinely acted on can become a legitimising ritual — creating the appearance of consultation without giving players and coaches real influence over the outcome.",
+      "A feedback process that is not genuinely acted on can become a legitimising ritual, creating the appearance of consultation without giving players and coaches real influence over the outcome.",
   },
   {
     id: "living-framework",
@@ -190,7 +190,7 @@ export const proposals: Proposal[] = [
     objection:
       "Frequent revision could create instability and confusion, undermining the very continuity and shared understanding the framework is meant to provide.",
     response:
-      "There is a real tension here, which is why the proposal is for scheduled, structured review rather than constant change — a framework that is revisited every few years on a known cycle is different from one that shifts unpredictably with each new coaching regime.",
+      "There is a real tension here, which is why the proposal is for scheduled, structured review rather than constant change. A framework revisited every few years on a known cycle is different from one that shifts unpredictably with each new coaching regime.",
     successMeasure:
       "Evidence that scheduled reviews have led to genuine, documented content changes over time, rather than the framework remaining static or being rewritten entirely at each review.",
     unintendedRisk:
@@ -209,7 +209,7 @@ export const proposals: Proposal[] = [
     objection:
       "Independent evaluation of tactical and developmental outcomes is inherently difficult to do rigorously, given how many confounding factors affect national team performance.",
     response:
-      "This is a genuine methodological limitation that should be stated plainly in any published evaluation, not hidden. An honest, appropriately hedged independent evaluation is still more valuable than no external scrutiny at all, provided its limits are made explicit.",
+      "The methodological limitation is genuine and should be stated plainly in any published evaluation rather than hidden. An honest, appropriately hedged independent evaluation is still more valuable than no external scrutiny at all, provided its limits are made explicit.",
     successMeasure:
       "Published, publicly accessible evaluation reports on a fixed schedule, each explicitly distinguishing well-evidenced findings from more speculative interpretation.",
     unintendedRisk:
@@ -226,7 +226,7 @@ export const proposals: Proposal[] = [
       "Adopt structured adaptability as a named, explicit organising principle across FA coach education and England age-group curricula, with each of the preceding proposals understood as contributing to this single, stated goal rather than as isolated initiatives.",
     owner: "FA technical directorate",
     objection:
-      "Adaptability by its nature resists being reduced to a formal, trainable curriculum item — some of what looks like adaptability may simply be individual football intelligence that cannot be systematically taught.",
+      "Adaptability by its nature resists being reduced to a formal, trainable curriculum item: some of what looks like adaptability may simply be individual football intelligence that cannot be systematically taught.",
     response:
       "Individual football intelligence undoubtedly matters and this proposal does not claim to replace it. The claim is narrower: that collective coordination during moments of tactical change can be improved through shared preparation, even where individual judgement remains essential and cannot itself be fully systematised.",
     successMeasure:

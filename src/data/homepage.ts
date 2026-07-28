@@ -110,7 +110,7 @@ export const frameworkLayers: FrameworkLayer[] = [
     number: 2,
     title: "Common recognition",
     description:
-      "A shared ability to recognise the same recurring match situations as they develop — a high press, a chaotic passage of play, an opponent changing shape — at broadly the same moment, rather than reading the game individually.",
+      "A shared ability to recognise the same recurring match situations as they develop, such as a high press, a chaotic passage of play or an opponent changing shape, at broadly the same moment rather than reading the game individually.",
   },
   {
     number: 3,

@@ -16,7 +16,7 @@ export const timelineEntries: TimelineEntry[] = [
     endYear: 1956,
     category: "tactical",
     summary:
-      "Hungary's national team of the early 1950s, built around a deep-lying centre-forward role and unusually fluid positional interchange, defeated England 6-3 at Wembley in 1953 — England's first home defeat to a team from outside the British Isles — and is widely cited as an early modern example of collective tactical sophistication overturning an established footballing power.",
+      "Hungary's national team of the early 1950s, built around a deep-lying centre-forward role and unusually fluid positional interchange, defeated England 6-3 at Wembley in 1953, England's first home defeat to a team from outside the British Isles, and is widely cited as an early modern example of collective tactical sophistication overturning an established footballing power.",
     institutionalStructure:
       "Hungarian football in this period operated under state-organised sporting structures, with the national team effectively centred on Honvéd, the army club, allowing an unusual degree of shared training time together.",
     developmentEnvironment:
@@ -51,7 +51,7 @@ export const timelineEntries: TimelineEntry[] = [
     seniorTactics:
       "Varied across eras from the counter-attacking approach of 1954 to more possession-oriented sides in the 1970s and 1980s, generally noted for defensive organisation and game management.",
     interpretation:
-      "This period is sometimes cited to argue that Germany's footballing strength did not begin with the post-2000 reform but was a pre-existing institutional asset that the reform then modernised for a changed footballing landscape — a reading that should be treated as one plausible account among others.",
+      "This period is sometimes cited to argue that Germany's footballing strength did not begin with the post-2000 reform but was a pre-existing institutional asset that the reform then modernised for a changed footballing landscape. That reading should be treated as one plausible account among others.",
     measurableEvidence:
       "The sequence of West German tournament finals (1954, 1966, 1972, 1974, 1976, 1980, 1982, 1986, 1990) is well documented; the causal role of specific institutional features is less firmly established and should be checked against football-history sources.",
     contested: true,
@@ -67,7 +67,7 @@ export const timelineEntries: TimelineEntry[] = [
     endYear: 1970,
     category: "tactical",
     summary:
-      "Brazil won three World Cups in this period, with the 1970 team in particular remembered as one of the greatest attacking sides in football history — a side historians increasingly describe as tactically organised as well as expressively gifted.",
+      "Brazil won three World Cups in this period, with the 1970 team in particular remembered as one of the greatest attacking sides in football history, a side historians increasingly describe as tactically organised as well as expressively gifted.",
     institutionalStructure:
       "Brazilian football federation structures in this period were less centrally coordinated than, for example, Hungary's, with player development occurring across a wide range of club and informal settings.",
     developmentEnvironment:
@@ -117,7 +117,7 @@ export const timelineEntries: TimelineEntry[] = [
     endYear: 1978,
     category: "tactical",
     summary:
-      "Rinus Michels' Ajax, and the Netherlands national team featuring Johan Cruyff, developed Total Football — a highly influential system of positional fluidity and coordinated pressing — reaching consecutive World Cup finals in 1974 and 1978 without winning either.",
+      "Rinus Michels' Ajax, and the Netherlands national team featuring Johan Cruyff, developed Total Football, a highly influential system of positional fluidity and coordinated pressing, reaching consecutive World Cup finals in 1974 and 1978 without winning either.",
     institutionalStructure:
       "Centred on Ajax as a club, with the Dutch federation's coach education later formalising and disseminating related principles more broadly.",
     developmentEnvironment:
@@ -127,7 +127,7 @@ export const timelineEntries: TimelineEntry[] = [
     seniorTactics:
       "High pressing, offside-trap defending, and fluid positional rotation in which outfield players were expected to competently fill several different positions.",
     interpretation:
-      "One of the clearest examples in football history of a tactical idea achieving lasting global influence without the team that developed it winning the sport's biggest prize — evidence that tactical coherence and tournament-winning capability are related but distinct.",
+      "One of the clearest examples in football history of a tactical idea achieving lasting global influence without the team that developed it winning the sport's biggest prize: evidence that tactical coherence and tournament-winning capability are related but distinct.",
     measurableEvidence:
       "The 1974 and 1978 World Cup final defeats are well documented; the direct lineage from Michels/Cruyff's ideas to later possession-based football (including via Cruyff's Barcelona tenure) is widely asserted in tactical-history literature and should be cited to that literature rather than presented as self-evident.",
     sourceIds: ["netherlands-total-football", "knvb-philosophy"],
@@ -241,7 +241,7 @@ export const timelineEntries: TimelineEntry[] = [
     endYear: 2012,
     category: "tactical",
     summary:
-      "After decades of tournament underachievement despite consistently strong individual talent, Spain won Euro 2008, the 2010 World Cup and Euro 2012 — the first team to win three consecutive major men's tournaments — built around a shared positional and possession-based approach traced substantially to Barcelona's academy methodology.",
+      "After decades of tournament underachievement despite consistently strong individual talent, Spain won Euro 2008, the 2010 World Cup and Euro 2012, the first team to win three consecutive major men's tournaments, built around a shared positional and possession-based approach traced substantially to Barcelona's academy methodology.",
     institutionalStructure:
       "The RFEF's coach-education approach and the influence of leading club academies, particularly Barcelona's La Masia, are both cited as contributing institutional factors.",
     developmentEnvironment:
@@ -251,7 +251,7 @@ export const timelineEntries: TimelineEntry[] = [
     seniorTactics:
       "Sustained possession, positional discipline and coordinated pressing, deployed with some personnel and tactical variation across all three tournament wins.",
     interpretation:
-      "The most commonly cited example of a shared national footballing language converting individual talent into sustained collective control — though the decades of pre-2008 underachievement with similarly talented players complicate any simple 'shared model causes results' account.",
+      "The most commonly cited example of a shared national footballing language converting individual talent into sustained collective control, though the decades of pre-2008 underachievement with similarly talented players complicate any simple 'shared model causes results' account.",
     measurableEvidence:
       "The 2008, 2010 and 2012 tournament wins are well documented; the specific causal contribution of shared academy methodology, as opposed to a particularly strong individual playing generation, is a matter of ongoing analytical debate rather than settled fact.",
     contested: true,
@@ -349,7 +349,7 @@ export const timelineEntries: TimelineEntry[] = [
     seniorTactics:
       "Flexible defensive shape and pressing intensity between matches, built around consistent roles for the team's most important attacking players, including Lionel Messi.",
     interpretation:
-      "The clearest recent international example of adaptability itself, rather than one fixed tactical system, being treated as a deliberate team capability — closely related to this site's central proposed concept of structured adaptability, though built here around one exceptional individual player.",
+      "The clearest recent international example of adaptability itself, rather than one fixed tactical system, being treated as a deliberate team capability. It is closely related to this site's central proposed concept of structured adaptability, though built here around one exceptional individual player.",
     measurableEvidence:
       "The 2021 Copa América and 2022 World Cup wins are well documented; specific claims about between-match tactical changes should be checked against match-by-match tactical analysis rather than general reputation.",
     sourceIds: ["argentina-2022-analysis", "afa-coaching-structures"],
