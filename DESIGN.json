@@ -1,0 +1,213 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-07-28T11:19:45Z",
+  "title": "Design System: England, Made Fluent",
+  "extensions": {
+    "colorMeta": {
+      "chalk": {
+        "role": "neutral",
+        "displayName": "Chalk",
+        "canonical": "#faf6ef",
+        "tonalRamp": ["oklch(0.22 0.01 92)", "oklch(0.33 0.015 92)", "oklch(0.45 0.018 92)", "oklch(0.57 0.02 92)", "oklch(0.69 0.02 92)", "oklch(0.80 0.018 92)", "oklch(0.90 0.015 92)", "oklch(0.97 0.012 92)"]
+      },
+      "chalk-deep": {
+        "role": "neutral",
+        "displayName": "Deep Chalk",
+        "canonical": "#f1ebdf",
+        "tonalRamp": ["oklch(0.22 0.012 90)", "oklch(0.33 0.016 90)", "oklch(0.45 0.02 90)", "oklch(0.57 0.022 90)", "oklch(0.69 0.022 90)", "oklch(0.80 0.02 90)", "oklch(0.89 0.018 90)", "oklch(0.94 0.016 90)"]
+      },
+      "red": {
+        "role": "primary",
+        "displayName": "England Red",
+        "canonical": "#c8102e",
+        "tonalRamp": ["oklch(0.20 0.09 24)", "oklch(0.31 0.14 24)", "oklch(0.42 0.18 24)", "oklch(0.51 0.20 24)", "oklch(0.62 0.18 24)", "oklch(0.74 0.13 24)", "oklch(0.85 0.08 24)", "oklch(0.95 0.03 24)"]
+      },
+      "red-deep": {
+        "role": "primary",
+        "displayName": "Deep England Red",
+        "canonical": "#a00d25",
+        "tonalRamp": ["oklch(0.18 0.08 22)", "oklch(0.28 0.13 22)", "oklch(0.38 0.17 22)", "oklch(0.46 0.19 22)", "oklch(0.58 0.17 22)", "oklch(0.70 0.12 22)", "oklch(0.83 0.07 22)", "oklch(0.94 0.03 22)"]
+      },
+      "navy": {
+        "role": "secondary",
+        "displayName": "Dossier Navy",
+        "canonical": "#0c1f3d",
+        "tonalRamp": ["oklch(0.15 0.04 258)", "oklch(0.26 0.06 258)", "oklch(0.36 0.08 258)", "oklch(0.47 0.09 258)", "oklch(0.58 0.08 258)", "oklch(0.70 0.06 258)", "oklch(0.83 0.04 258)", "oklch(0.94 0.02 258)"]
+      },
+      "navy-soft": {
+        "role": "secondary",
+        "displayName": "Soft Navy",
+        "canonical": "#1b3358",
+        "tonalRamp": ["oklch(0.17 0.045 258)", "oklch(0.30 0.065 258)", "oklch(0.40 0.08 258)", "oklch(0.50 0.085 258)", "oklch(0.61 0.075 258)", "oklch(0.72 0.055 258)", "oklch(0.84 0.035 258)", "oklch(0.95 0.02 258)"]
+      },
+      "grass": {
+        "role": "tertiary",
+        "displayName": "Pitch Green",
+        "canonical": "#3e7a4f",
+        "tonalRamp": ["oklch(0.22 0.05 152)", "oklch(0.32 0.07 152)", "oklch(0.42 0.08 152)", "oklch(0.53 0.09 152)", "oklch(0.64 0.09 152)", "oklch(0.75 0.08 152)", "oklch(0.86 0.06 152)", "oklch(0.95 0.03 152)"]
+      },
+      "grass-deep": {
+        "role": "tertiary",
+        "displayName": "Mown Green",
+        "canonical": "#2e5c3b",
+        "tonalRamp": ["oklch(0.20 0.045 152)", "oklch(0.29 0.065 152)", "oklch(0.38 0.075 152)", "oklch(0.44 0.08 152)", "oklch(0.56 0.08 152)", "oklch(0.68 0.075 152)", "oklch(0.81 0.055 152)", "oklch(0.93 0.03 152)"]
+      },
+      "ink": {
+        "role": "neutral",
+        "displayName": "Ink",
+        "canonical": "#191a1c",
+        "tonalRamp": ["oklch(0.22 0.005 270)", "oklch(0.32 0.005 270)", "oklch(0.43 0.005 270)", "oklch(0.54 0.005 270)", "oklch(0.65 0.005 270)", "oklch(0.76 0.005 270)", "oklch(0.87 0.005 270)", "oklch(0.96 0.004 270)"]
+      },
+      "ink-soft": {
+        "role": "neutral",
+        "displayName": "Soft Ink",
+        "canonical": "#43464b",
+        "tonalRamp": ["oklch(0.24 0.006 265)", "oklch(0.35 0.008 265)", "oklch(0.44 0.01 265)", "oklch(0.55 0.01 265)", "oklch(0.66 0.008 265)", "oklch(0.77 0.007 265)", "oklch(0.88 0.005 265)", "oklch(0.96 0.004 265)"]
+      },
+      "ink-faint": {
+        "role": "neutral",
+        "displayName": "Faint Ink",
+        "canonical": "#63676e",
+        "tonalRamp": ["oklch(0.26 0.008 262)", "oklch(0.37 0.01 262)", "oklch(0.49 0.012 262)", "oklch(0.55 0.012 262)", "oklch(0.66 0.01 262)", "oklch(0.77 0.008 262)", "oklch(0.88 0.006 262)", "oklch(0.96 0.004 262)"]
+      },
+      "line": {
+        "role": "neutral",
+        "displayName": "Hairline",
+        "canonical": "#ddd5c6",
+        "tonalRamp": ["oklch(0.24 0.012 90)", "oklch(0.35 0.016 90)", "oklch(0.47 0.02 90)", "oklch(0.59 0.022 90)", "oklch(0.71 0.022 90)", "oklch(0.82 0.02 90)", "oklch(0.87 0.02 90)", "oklch(0.95 0.014 90)"]
+      }
+    },
+    "typographyMeta": {
+      "display": { "displayName": "Display", "purpose": "Hero thesis headline only. Archivo black, tight leading." },
+      "headline": { "displayName": "Headline", "purpose": "Section h2s with anchor ids and copy-link controls." },
+      "title": { "displayName": "Title", "purpose": "h3 subsections and card titles." },
+      "body": { "displayName": "Body", "purpose": "Long-form serif argument, Soft Ink, max 65ch." },
+      "label": { "displayName": "Label", "purpose": "Red uppercase kicker eyebrows; badge and callout labels." }
+    },
+    "shadows": [
+      { "name": "overlay-dropdown", "value": "0 10px 15px -3px rgba(0,0,0,0.1), 0 4px 6px -4px rgba(0,0,0,0.1)", "purpose": "The header's More dropdown. One of only two shadowed elements." },
+      { "name": "overlay-popover", "value": "0 20px 25px -5px rgba(0,0,0,0.1), 0 8px 10px -6px rgba(0,0,0,0.1)", "purpose": "The citation popover. The other shadowed element. Everything else lies flat." }
+    ],
+    "motion": [
+      { "name": "transition-color", "value": "150ms ease-out", "purpose": "Hover colour shifts on buttons, links, nav." },
+      { "name": "transition-transform", "value": "200ms ease-out", "purpose": "Chevron rotation on disclosure open." },
+      { "name": "fade-up", "value": "fade-up 0.6s ease-out both (translateY 12px to 0)", "purpose": "The single entrance animation. Gated by prefers-reduced-motion." }
+    ],
+    "breakpoints": [
+      { "name": "sm", "value": "640px" },
+      { "name": "md", "value": "768px" },
+      { "name": "lg", "value": "1024px" }
+    ]
+  },
+  "components": [
+    {
+      "name": "Primary Button",
+      "kind": "button",
+      "refersTo": "button-primary",
+      "description": "The pill CTA. England Red fill, one per screen region.",
+      "html": "<a class=\"ds-btn-primary\" href=\"#\">Read the two-minute case</a>",
+      "css": ".ds-btn-primary { display: inline-flex; align-items: center; justify-content: center; height: 48px; padding: 0 24px; border-radius: 9999px; background: var(--color-red, #c8102e); color: var(--color-chalk, #faf6ef); font-family: Archivo, system-ui, sans-serif; font-size: 0.875rem; font-weight: 600; text-decoration: none; transition: background-color 150ms ease-out; } .ds-btn-primary:hover { background: var(--color-red-deep, #a00d25); } .ds-btn-primary:focus-visible { outline: 3px solid var(--color-red, #c8102e); outline-offset: 2px; border-radius: 9999px; }"
+    },
+    {
+      "name": "Ghost Action Button",
+      "kind": "button",
+      "refersTo": "button-ghost",
+      "description": "Hairline-bordered pill for secondary actions (share, copy, print). Border and text turn red on hover.",
+      "html": "<button class=\"ds-btn-ghost\" type=\"button\"><svg width=\"16\" height=\"16\" viewBox=\"0 0 24 24\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\" stroke-linecap=\"round\" stroke-linejoin=\"round\" aria-hidden=\"true\"><circle cx=\"18\" cy=\"5\" r=\"3\"/><circle cx=\"6\" cy=\"12\" r=\"3\"/><circle cx=\"18\" cy=\"19\" r=\"3\"/><line x1=\"8.59\" y1=\"13.51\" x2=\"15.42\" y2=\"17.49\"/><line x1=\"15.41\" y1=\"6.51\" x2=\"8.59\" y2=\"10.49\"/></svg>Share</button>",
+      "css": ".ds-btn-ghost { display: inline-flex; align-items: center; gap: 8px; height: 44px; padding: 0 16px; border-radius: 9999px; border: 1px solid var(--color-line, #ddd5c6); background: transparent; color: var(--color-navy, #0c1f3d); font-family: Archivo, system-ui, sans-serif; font-size: 0.875rem; font-weight: 500; cursor: pointer; transition: color 150ms ease-out, border-color 150ms ease-out; } .ds-btn-ghost:hover { border-color: var(--color-red, #c8102e); color: var(--color-red, #c8102e); } .ds-btn-ghost:focus-visible { outline: 3px solid var(--color-red, #c8102e); outline-offset: 2px; }"
+    },
+    {
+      "name": "Filter Chip",
+      "kind": "chip",
+      "refersTo": "chip-filter",
+      "description": "Unselected filter toggle used on timeline, nations and interop views.",
+      "html": "<button class=\"ds-chip\" type=\"button\"><span class=\"ds-chip-dot\"></span>Spain 2008–2012</button>",
+      "css": ".ds-chip { display: inline-flex; align-items: center; gap: 8px; padding: 8px 12px; border-radius: 9999px; border: 1px solid var(--color-line, #ddd5c6); background: transparent; color: var(--color-ink-soft, #43464b); font-family: Archivo, system-ui, sans-serif; font-size: 0.875rem; cursor: pointer; transition: border-color 150ms ease-out; } .ds-chip:hover { border-color: var(--color-navy, #0c1f3d); } .ds-chip:focus-visible { outline: 3px solid var(--color-red, #c8102e); outline-offset: 2px; } .ds-chip-dot { width: 10px; height: 10px; border-radius: 9999px; background: var(--color-grass, #3e7a4f); }"
+    },
+    {
+      "name": "Filter Chip (Selected)",
+      "kind": "chip",
+      "refersTo": "chip-filter-selected",
+      "description": "Selected state: solid Dossier Navy with chalk text.",
+      "html": "<button class=\"ds-chip-selected\" type=\"button\"><span class=\"ds-chip-selected-dot\"></span>England 2016–2024</button>",
+      "css": ".ds-chip-selected { display: inline-flex; align-items: center; gap: 8px; padding: 8px 12px; border-radius: 9999px; border: 1px solid var(--color-navy, #0c1f3d); background: var(--color-navy, #0c1f3d); color: var(--color-chalk, #faf6ef); font-family: Archivo, system-ui, sans-serif; font-size: 0.875rem; cursor: pointer; } .ds-chip-selected:focus-visible { outline: 3px solid var(--color-red, #c8102e); outline-offset: 2px; } .ds-chip-selected-dot { width: 10px; height: 10px; border-radius: 9999px; background: var(--color-red, #c8102e); }"
+    },
+    {
+      "name": "Card",
+      "kind": "card",
+      "refersTo": "card",
+      "description": "Restrained bordered panel for genuinely parallel items. Flat, hairline border, tinted ground.",
+      "html": "<div class=\"ds-card\">Nearly every England squad member plays weekly inside one of four or five distinct tactical systems, each with its own pressing triggers and build-up grammar.</div>",
+      "css": ".ds-card { border: 1px solid var(--color-line, #ddd5c6); border-radius: 8px; background: color-mix(in srgb, var(--color-chalk-deep, #f1ebdf) 50%, transparent); padding: 24px; font-family: 'Source Serif 4', Georgia, serif; font-size: 0.875rem; line-height: 1.625; color: var(--color-ink-soft, #43464b); max-width: 340px; }"
+    },
+    {
+      "name": "Section Heading",
+      "kind": "custom",
+      "refersTo": "label",
+      "description": "The standard long-form section opener: red Archivo kicker eyebrow over a bold tracking-tight headline and a serif lede.",
+      "html": "<div class=\"ds-secthead\"><p class=\"ds-secthead-kicker\">The argument</p><h2 class=\"ds-secthead-title\">The argument in 60 seconds</h2><p class=\"ds-secthead-lede\">The complete case, compressed into six statements, before the evidence behind it.</p></div>",
+      "css": ".ds-secthead { max-width: 60ch; } .ds-secthead-kicker { margin: 0; font-family: Archivo, system-ui, sans-serif; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.14em; color: var(--color-red, #c8102e); } .ds-secthead-title { margin: 8px 0 0; font-family: Archivo, system-ui, sans-serif; font-size: 1.875rem; font-weight: 700; letter-spacing: -0.025em; color: var(--color-ink, #191a1c); } .ds-secthead-lede { margin: 12px 0 0; font-family: 'Source Serif 4', Georgia, serif; font-size: 1.125rem; line-height: 1.625; color: var(--color-ink-soft, #43464b); }"
+    },
+    {
+      "name": "Verification Badges",
+      "kind": "custom",
+      "refersTo": "card",
+      "description": "The honest-status pills from the citation apparatus: verified (navy tint), corroborated (navy outline), placeholder (red tint). Status is always written in words.",
+      "html": "<div class=\"ds-badges\"><span class=\"ds-badge ds-badge-verified\">Verified</span><span class=\"ds-badge ds-badge-corroborated\">Corroborated — citation confirmed, text unchecked</span><span class=\"ds-badge ds-badge-placeholder\">Placeholder — requires verification</span></div>",
+      "css": ".ds-badges { display: flex; flex-wrap: wrap; gap: 8px; } .ds-badge { display: inline-flex; align-items: center; padding: 4px 10px; border-radius: 9999px; font-family: Archivo, system-ui, sans-serif; font-size: 0.75rem; font-weight: 600; } .ds-badge-verified { background: color-mix(in srgb, var(--color-navy, #0c1f3d) 10%, transparent); color: var(--color-navy, #0c1f3d); } .ds-badge-corroborated { border: 1px solid color-mix(in srgb, var(--color-navy, #0c1f3d) 30%, transparent); color: var(--color-navy, #0c1f3d); } .ds-badge-placeholder { background: color-mix(in srgb, var(--color-red-deep, #a00d25) 10%, transparent); color: var(--color-red-deep, #a00d25); }"
+    },
+    {
+      "name": "Citation Popover",
+      "kind": "custom",
+      "refersTo": "card",
+      "description": "The signature evidence UI: a red superscript dagger opens a chalk popover carrying source, byline, dates and verification status. Shown here in its open state.",
+      "html": "<div class=\"ds-cite-demo\"><p class=\"ds-cite-prose\">visible spirit and evident unity<button class=\"ds-cite-dagger\" type=\"button\">†</button></p><div class=\"ds-cite-pop\"><span class=\"ds-cite-type\">Official</span><p class=\"ds-cite-title\">England tournament record 2018–2024</p><p class=\"ds-cite-meta\">The Football Association</p><p class=\"ds-cite-meta\">Published 16 July 2024. Accessed 12 June 2026.</p><a class=\"ds-cite-link\" href=\"#\">View in bibliography</a></div></div>",
+      "css": ".ds-cite-demo { font-family: 'Source Serif 4', Georgia, serif; max-width: 320px; } .ds-cite-prose { margin: 0 0 12px; font-size: 1.125rem; color: var(--color-ink-soft, #43464b); } .ds-cite-dagger { margin-left: 2px; border: none; background: none; padding: 0; vertical-align: super; font-size: 0.7em; font-weight: 600; color: var(--color-red, #c8102e); text-decoration: underline dotted; text-underline-offset: 2px; cursor: pointer; } .ds-cite-dagger:focus-visible { outline: 3px solid var(--color-red, #c8102e); outline-offset: 2px; } .ds-cite-pop { width: 288px; border: 1px solid var(--color-line, #ddd5c6); border-radius: 8px; background: var(--color-chalk, #faf6ef); padding: 16px; box-shadow: 0 20px 25px -5px rgba(0,0,0,0.1), 0 8px 10px -6px rgba(0,0,0,0.1); } .ds-cite-type { display: inline-block; margin-bottom: 6px; padding: 2px 8px; border-radius: 9999px; background: var(--color-chalk-deep, #f1ebdf); font-family: Archivo, system-ui, sans-serif; font-size: 0.65rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; color: var(--color-navy, #0c1f3d); } .ds-cite-title { margin: 6px 0 0; font-family: Archivo, system-ui, sans-serif; font-size: 0.875rem; font-weight: 600; line-height: 1.375; color: var(--color-ink, #191a1c); } .ds-cite-meta { margin: 4px 0 0; font-size: 0.75rem; font-family: Archivo, system-ui, sans-serif; color: var(--color-ink-faint, #63676e); } .ds-cite-link { display: inline-block; margin-top: 8px; font-family: Archivo, system-ui, sans-serif; font-size: 0.75rem; font-weight: 600; color: var(--color-navy, #0c1f3d); text-decoration: underline; text-decoration-color: var(--color-red, #c8102e); } .ds-cite-link:hover { color: var(--color-red, #c8102e); }"
+    },
+    {
+      "name": "Callout",
+      "kind": "custom",
+      "refersTo": "card",
+      "description": "Labelled aside separating interpretation from evidence. The uppercase label, not the colour, carries the meaning. Legacy left-rule shape: grandfathered, not a pattern to extend.",
+      "html": "<div class=\"ds-callout\"><p class=\"ds-callout-label\">Note<span class=\"ds-callout-title\"> — What this site does not claim</span></p><p class=\"ds-callout-body\">Diversity is only an advantage when it is supported by interoperability: the shared language and responses that turn varied experience into collective understanding.</p></div>",
+      "css": ".ds-callout { max-width: 380px; border-left: 4px solid var(--color-navy, #0c1f3d); border-radius: 0 6px 6px 0; background: color-mix(in srgb, var(--color-chalk-deep, #f1ebdf) 50%, transparent); padding: 16px 20px; } .ds-callout-label { margin: 0; font-family: Archivo, system-ui, sans-serif; font-size: 0.75rem; font-weight: 600; text-transform: uppercase; letter-spacing: 0.12em; color: var(--color-ink-faint, #63676e); } .ds-callout-title { text-transform: none; letter-spacing: normal; color: var(--color-ink, #191a1c); } .ds-callout-body { margin: 8px 0 0; font-family: 'Source Serif 4', Georgia, serif; font-size: 0.9375rem; line-height: 1.625; color: var(--color-ink-soft, #43464b); }"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Match Dossier",
+    "overview": "Every surface behaves like a page from a confidential briefing prepared for the England setup: sourced, calm, and quietly certain. The ground is warm chalk, the body is serif, sections are separated by hairline rules rather than boxes, and the evidence apparatus (citation daggers, verification badges, the bibliography) is visible working, not decoration. The word 'chalk' does double duty on purpose: the paper the dossier is printed on and the line-marking on the training pitch. The tactical layer supplies the football identity; the editorial layer never dresses up as football.",
+    "keyCharacteristics": [
+      "Paper-first: warm chalk ground, serif long-form body capped at 65ch",
+      "Flat at rest: depth from hairline rules and tonal tints, not shadows",
+      "Red as pulse: England red only where the argument moves",
+      "Two voices: Archivo speaks structure, Source Serif 4 speaks argument",
+      "Evidence rendered as UI: daggers, badges, and honest status labels",
+      "Green quarantined to the tactical SVG canvas",
+      "Print is a first-class surface"
+    ],
+    "rules": [
+      { "name": "The Red Thread Rule", "body": "England red stitches the argument together at small points of movement and emphasis; it covers roughly a tenth of any screen and never becomes a background outside the primary CTA.", "section": "colors" },
+      { "name": "The Grass Stays on the Pitch Rule", "body": "Green renders only inside tactical SVGs. If green appears in editorial chrome, it is a defect.", "section": "colors" },
+      { "name": "The Two Voices Rule", "body": "Archivo speaks structure: headings, kickers, nav, buttons, badges, table headers, the numbered numerals. Source Serif 4 speaks argument: body prose, ledes, notes. Neither voice borrows the other's job.", "section": "typography" },
+      { "name": "The Paper Lies Flat Rule", "body": "Surfaces at rest never cast shadows. A shadow is permitted only on a transient overlay that appears above the page and disappears again.", "section": "elevation" }
+    ],
+    "dos": [
+      "Do keep England Red (#c8102e) at pulse points only: kickers, daggers, underlines, active nav, progress bar, one primary CTA. Roughly a tenth of any screen.",
+      "Do separate the two voices: Archivo for structure, Source Serif 4 for argument, body capped at 65ch.",
+      "Do build depth from paper: Hairline borders and Deep Chalk tints, with shadows reserved for the dropdown and the citation popover.",
+      "Do write states in words (Verified / Corroborated / Placeholder, Note / Contested); colour is never the only signal.",
+      "Do keep navy panels (hero, closing, footer) as the only full-bleed dark surfaces, with chalk text stepped at 80/70/50 opacity.",
+      "Do respect print: the open letter and long-form pages must survive @media print on white ground in black ink with the chrome stripped."
+    ],
+    "donts": [
+      "Don't use tabloid sports media devices: screaming headlines, red-top urgency, clickbait density.",
+      "Don't import generic SaaS marketing: gradient heroes, gradient text, glassmorphism, identical icon-card grids, dark-mode gloss.",
+      "Don't borrow fan-meme and terrace culture: crests, shields, lions, kit photography, banter registers.",
+      "Don't imitate official federation corporate sites (FA, Premier League, UEFA, FIFA); independence must be visible at a glance.",
+      "Don't let Pitch Green (#3e7a4f) out of the tactical SVGs. No green in editorial chrome.",
+      "Don't add new side-stripe accents. The existing Callout and blockquote left rules are the grandfathered ceiling.",
+      "Don't animate layout properties, bounce, or choreograph entrances. Colour transitions (~150ms ease-out) and the single fade-up keyframe are the entire motion vocabulary, all gated by prefers-reduced-motion.",
+      "Don't suppress focus outlines. 3px solid red, 2px offset, everywhere."
+    ]
+  }
+}
