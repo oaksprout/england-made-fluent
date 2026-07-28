@@ -153,16 +153,21 @@ export default function HomePage() {
             title="A structural advantage most nations do not have"
             lede="England may possess more concentrated, week-to-week tactical experience than almost any national squad in world football — and still lack a shared method for combining it."
           />
-          <div className="grid gap-4 sm:grid-cols-2 lg:grid-cols-4">
-            {premierLeagueExposures.map((statement) => (
-              <Card
-                key={statement.id}
-                className="text-sm leading-relaxed text-ink-soft"
-              >
-                {statement.text}
-              </Card>
+          <ol className="grid gap-x-12 border-b border-line sm:grid-cols-2">
+            {premierLeagueExposures.map((statement, index) => (
+              <li key={statement.id} className="border-t border-line py-5 pr-4">
+                <span
+                  aria-hidden="true"
+                  className="font-display text-xs font-black tracking-wide text-red"
+                >
+                  {String(index + 1).padStart(2, "0")}
+                </span>
+                <p className="mt-1.5 text-sm leading-relaxed text-ink-soft">
+                  {statement.text}
+                </p>
+              </li>
             ))}
-          </div>
+          </ol>
 
           <div className="mt-14 max-w-3xl">
             <h3 className="font-display text-xl font-bold text-ink">
@@ -325,15 +330,15 @@ export default function HomePage() {
               </p>
             </Card>
           </div>
-          <div className="mt-6 rounded-r-md border-l-4 border-red bg-red/5 p-6">
+          <div className="mt-6 rounded-lg border border-line bg-red/5 p-6">
             <h3 className="font-display text-xl font-bold text-ink">
               A common operating system for tactical diversity
             </h3>
             <p className="mt-3 leading-relaxed text-ink-soft">
-              The aim is not to make every English player learn the same
-              football. It is to ensure players educated in different systems
-              can rapidly understand one another — a shared language, shared
-              recognition and a shared menu of responses, not a shared style.
+              The aim is to ensure players educated in different systems can
+              rapidly understand one another: a shared language, shared
+              recognition and a shared menu of responses rather than a shared
+              style.
             </p>
           </div>
         </div>

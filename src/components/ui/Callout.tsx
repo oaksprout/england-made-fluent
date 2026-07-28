@@ -11,41 +11,42 @@ export type CalloutProps = {
 
 const TONE_CONFIG: Record<
   CalloutTone,
-  { label: string; border: string; bg: string }
+  { label: string; dot: string; bg: string }
 > = {
-  note: { label: "Note", border: "border-navy", bg: "bg-chalk-deep/50" },
+  note: { label: "Note", dot: "bg-navy", bg: "bg-chalk-deep/50" },
   interpretation: {
     label: "Interpretation",
-    border: "border-navy",
+    dot: "bg-navy",
     bg: "bg-chalk-deep",
   },
   contested: {
     label: "Contested interpretation",
-    border: "border-red",
+    dot: "bg-red",
     bg: "bg-red/5",
   },
 };
 
 /**
  * Labelled aside used to keep analytical readings visually and textually
- * distinct from grounded evidence. The tone label is always visible text —
- * colour is never the only signal.
+ * distinct from grounded evidence: a full hairline frame over a tinted
+ * ground, with a tone dot beside the label. The tone label is always visible
+ * text — colour is never the only signal.
  */
 export function Callout({ tone = "note", title, children }: CalloutProps) {
   const config = TONE_CONFIG[tone];
   return (
     <div
-      className={cn(
-        "my-6 rounded-r-md border-l-4 py-4 pl-5 pr-5",
-        config.border,
-        config.bg,
-      )}
+      className={cn("my-6 rounded-lg border border-line px-5 py-4", config.bg)}
     >
-      <p className="font-display text-xs font-semibold uppercase tracking-[0.12em] text-ink-faint">
+      <p className="flex items-center gap-2 font-display text-xs font-semibold uppercase tracking-[0.12em] text-ink-faint">
+        <span
+          aria-hidden="true"
+          className={cn("h-2 w-2 shrink-0 rounded-full", config.dot)}
+        />
         {config.label}
         {title ? (
-          <span className="ml-2 normal-case tracking-normal text-ink">
-            — {title}
+          <span className="normal-case tracking-normal text-ink">
+            · {title}
           </span>
         ) : null}
       </p>

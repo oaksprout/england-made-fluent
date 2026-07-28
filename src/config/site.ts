@@ -18,7 +18,7 @@ export const site = {
   thesis: {
     headline: "England does not lack talent. It lacks fluency.",
     supporting:
-      "English players are developed inside the most tactically diverse elite league in world football. But when they come together for England, that diversity too often becomes friction rather than strength.",
+      "English players are developed inside the most tactically diverse elite league in world football. But when they come together for England, that diversity too often turns to friction.",
     identity: "Structured adaptability",
     identityDefinition:
       "The trained capacity to change shape, tempo and tactical emphasis without losing collective understanding.",
@@ -26,10 +26,9 @@ export const site = {
       "England should not industrialise one way of playing. It should industrialise the ability to play together in several ways.",
     secondary:
       "The Premier League gives England tactical diversity. The national system must turn that diversity into collective intelligence.",
-    closingHeadline:
-      "England's diversity should be an advantage, not a translation problem.",
+    closingHeadline: "Turn England's diversity into England's advantage.",
     closingCopy:
-      "The next England team should not have to invent itself at every tournament. Nor should it inherit a rigid style disconnected from the football its players actually experience. England needs a shared football language capable of turning different ideas into collective action.",
+      "The next England team should arrive at a tournament already knowing itself. That takes a shared football language, rooted in the football its players actually play, capable of turning different ideas into collective action.",
   },
 
   cta: {
@@ -50,7 +49,7 @@ export const site = {
     "England, Made Fluent is an independent project and is not affiliated with or endorsed by The Football Association or the Premier League.",
 
   description:
-    "An independent campaign and policy argument: England's principal limitation is no longer talent, mentality or togetherness — it is collective fluency. The national system should turn the Premier League's tactical diversity into structured adaptability.",
+    "An independent campaign and policy argument: England's remaining limitation is collective fluency. The national system should turn the Premier League's tactical diversity into structured adaptability.",
 
   keywords: [
     "England national football team",

@@ -276,14 +276,14 @@ same badges reappear full-size on bibliography SourceCards, which are
 hairline-separated entries, not cards. Status is always written in words;
 colour never carries it alone.
 
-### Callout (signature, legacy shape)
+### Callout (signature)
 
-A labelled aside for keeping interpretation distinct from evidence: 4px left
-rule (navy for notes, red for contested readings) over a tinted ground, with
-an uppercase Archivo label naming the tone. The label text, not the colour,
-is the semantic signal. This left-rule treatment and the matching blockquote
-rule are the system's grandfathered ceiling for side accents; new emphasis
-patterns use full borders, tints, or labels instead.
+A labelled aside for keeping interpretation distinct from evidence: a full
+hairline frame over a tinted ground (Deep Chalk for notes and
+interpretations, 5% red for contested readings), with a small tone dot
+beside an uppercase Archivo label naming the tone. The label text, not the
+colour, is the semantic signal. The blockquote left rule in long-form prose
+is the system's single remaining side accent, kept as a print convention.
 
 ### Tactical Diagrams (signature)
 
@@ -323,8 +323,9 @@ reading as a coaching diagram, never as a flag, shield or crest.
   UEFA, FIFA); independence must be visible at a glance.
 - **Don't** let Pitch Green (#3e7a4f) out of the tactical SVGs. No green in
   editorial chrome.
-- **Don't** add new side-stripe accents. The existing Callout and blockquote
-  left rules are the grandfathered ceiling.
+- **Don't** use side-stripe accents. The blockquote left rule is the single
+  grandfathered print convention; emphasis elsewhere uses full hairline
+  frames, tints, or labels.
 - **Don't** animate layout properties, bounce, or choreograph entrances.
   Colour transitions (~150ms ease-out) and the single fade-up keyframe are
   the entire motion vocabulary, all gated by prefers-reduced-motion.
